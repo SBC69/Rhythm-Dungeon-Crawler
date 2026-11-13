@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dpj2pra85i3fh"
+
+[deps]
+
+files=["res://localization/messages.en.translation", "res://localization/messages.ru.translation", "res://localization/messages.es.translation", "res://localization/messages.zh_CN.translation"]
+
+source_file="res://localization/messages.csv"
+dest_files=["res://localization/messages.en.translation", "res://localization/messages.ru.translation", "res://localization/messages.es.translation", "res://localization/messages.zh_CN.translation"]
+
+[params]
+
+compress=true
+delimiter=0

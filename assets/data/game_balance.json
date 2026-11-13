@@ -1,0 +1,546 @@
+{
+  "schema_version": 1,
+  "balance_version": "2026-11-07.rhythm-stats.v3",
+  "hero": {
+    "max_hp": 50,
+    "base_power": 2,
+    "starting_gold": 40,
+    "minimum_effective_base_power": 1
+  },
+  "modes": {
+    "timed": {
+      "floor_limit": 100,
+      "depth_stride": 100,
+      "timer_runs_during_pause": true,
+      "unfinished_close_policy": "rollback_entry_snapshot"
+    },
+    "endless": {
+      "theme_block_floors": 100,
+      "theme_pool": "unlocked_timed_at_entry",
+      "theme_order": "dungeon_order_cyclic",
+      "entry_depth": 0
+    }
+  },
+  "dungeon_order": [
+    "crypts",
+    "ash_forges",
+    "drowned_temple",
+    "crystal_mines",
+    "abyss_rift"
+  ],
+  "dungeons": {
+    "crypts": {
+      "next": "ash_forges"
+    },
+    "ash_forges": {
+      "next": "drowned_temple"
+    },
+    "drowned_temple": {
+      "next": "crystal_mines"
+    },
+    "crystal_mines": {
+      "next": "abyss_rift"
+    },
+    "abyss_rift": {
+      "next": null
+    }
+  },
+  "floor": {
+    "generation_version": 2,
+    "normal_door_count": 3,
+    "boss_door_count": 1,
+    "route_count": 3,
+    "rooms_before_boss": 9,
+    "boss_room": 10,
+    "first_floor": {
+      "regular": 7,
+      "elite": 0,
+      "trap": 2
+    },
+    "later_floors": {
+      "regular": 6,
+      "elite": 1,
+      "trap": 2
+    },
+    "elite_room_min": 4,
+    "elite_room_max": 9,
+    "choice_policy": "remaining_counts",
+    "route_lock": "none",
+    "repeat_final_policy": "success_after_last_route_room"
+  },
+  "enemies": {
+    "regular": {
+      "base": 4,
+      "depth_multiplier": 2,
+      "room_bonus_divisor": 3,
+      "minimum_power": 2
+    },
+    "elite": {
+      "base": 6,
+      "depth_multiplier": 3,
+      "depth_extra_divisor": 20,
+      "depth_extra_cap": 8,
+      "room_bonus_divisor": 3
+    },
+    "floor_boss": {
+      "base": 9,
+      "attack_offset": 2,
+      "defense_offset": 2,
+      "depth_multiplier": 3,
+      "depth_extra_divisor": 10,
+      "depth_extra_cap": 12,
+      "template_policy": "odd_even"
+    },
+    "final_boss": {
+      "base": 35,
+      "attack_offset": 4,
+      "defense_offset": 4,
+      "depth_multiplier": 3,
+      "permanent_death": true
+    },
+    "archetypes": [
+      {
+        "id": "skeleton",
+        "attack_offset": 0,
+        "defense_offset": 0,
+        "suffix": "01",
+        "power_offset": -1,
+        "weight": 14
+      },
+      {
+        "id": "shadow_ghoul",
+        "attack_offset": 1,
+        "defense_offset": -1,
+        "suffix": "02",
+        "power_offset": 0,
+        "weight": 10
+      },
+      {
+        "id": "crypt_knight",
+        "attack_offset": 0,
+        "defense_offset": 2,
+        "suffix": "03",
+        "power_offset": 1,
+        "weight": 8
+      },
+      {
+        "id": "abyss_demon",
+        "attack_offset": 2,
+        "defense_offset": 0,
+        "suffix": "04",
+        "power_offset": 1,
+        "weight": 5
+      },
+      {
+        "id": "cave_spider",
+        "attack_offset": 1,
+        "defense_offset": -1,
+        "suffix": "05",
+        "power_offset": -1,
+        "weight": 12
+      },
+      {
+        "id": "dungeon_slime",
+        "attack_offset": -1,
+        "defense_offset": 1,
+        "suffix": "06",
+        "power_offset": -1,
+        "weight": 12
+      },
+      {
+        "id": "restless_ghost",
+        "attack_offset": 1,
+        "defense_offset": -1,
+        "suffix": "07",
+        "power_offset": 0,
+        "weight": 10
+      },
+      {
+        "id": "werewolf",
+        "attack_offset": 2,
+        "defense_offset": 0,
+        "suffix": "08",
+        "power_offset": 1,
+        "weight": 8
+      },
+      {
+        "id": "goblin_raider",
+        "attack_offset": 1,
+        "defense_offset": 0,
+        "suffix": "09",
+        "power_offset": 0,
+        "weight": 10
+      },
+      {
+        "id": "stone_golem",
+        "attack_offset": -1,
+        "defense_offset": 3,
+        "suffix": "10",
+        "power_offset": 2,
+        "weight": 6
+      },
+      {
+        "id": "bound_djinn",
+        "attack_offset": 2,
+        "defense_offset": 1,
+        "suffix": "11",
+        "power_offset": 1,
+        "weight": 5
+      }
+    ]
+  },
+  "combat": {
+    "damage_per_power_gap": 10,
+    "minimum_damaging_hit": 1,
+    "damage_if_power_sufficient": 0
+  },
+  "dice": {
+    "count": 2,
+    "sides": 6
+  },
+  "escape": {
+    "dc_base": 6,
+    "dc_min": 7,
+    "dc_max": 11,
+    "base_rerolls": 1,
+    "doubles_succeed": true,
+    "clear_temporary_buff_on_escape": true
+  },
+  "traps": {
+    "dc_depth_divisor": 40,
+    "dc_cap": 10,
+    "damage_depth_divisor": 25,
+    "raw_damage_cap": 20,
+    "partial_success_margin": 2,
+    "partial_damage_divisor": 2,
+    "base_rerolls": 0,
+    "doubles_succeed": true,
+    "curse_duration": "current_floor",
+    "templates": {
+      "spike_trap": {
+        "base_dc": 6,
+        "base_damage": 12,
+        "power_penalty": 0,
+        "weight": 1
+      },
+      "cursed_altar": {
+        "base_dc": 7,
+        "base_damage": 8,
+        "power_penalty": 1,
+        "weight": 1
+      },
+      "poison_gas": {
+        "base_dc": 5,
+        "base_damage": 10,
+        "power_penalty": 0,
+        "weight": 1
+      }
+    }
+  },
+  "items": {
+    "power_per_depth": 1,
+    "buff_per_depth": 1,
+    "healing_per_depth": 5,
+    "potions_at_full_hp_allowed": true,
+    "scrolls_outside_combat_allowed": true,
+    "overflow_healing_policy": "discard",
+    "cards": {
+      "rusty_sword": {
+        "kind": "weapon",
+        "rarity": "COMMON",
+        "power": 2,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "iron_blade": {
+        "kind": "weapon",
+        "rarity": "UNCOMMON",
+        "power": 4,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "radiant_broadsword": {
+        "kind": "weapon",
+        "rarity": "RARE",
+        "power": 7,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "leather_armor": {
+        "kind": "armor",
+        "rarity": "COMMON",
+        "power": 2,
+        "damage_reduction": 1,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "spiked_shield": {
+        "kind": "armor",
+        "rarity": "UNCOMMON",
+        "power": 4,
+        "damage_reduction": 2,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "royal_plate": {
+        "kind": "armor",
+        "rarity": "RARE",
+        "power": 7,
+        "damage_reduction": 4,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "minor_health_potion": {
+        "kind": "potion",
+        "rarity": "COMMON",
+        "heal": 15,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "greater_health_potion": {
+        "kind": "potion",
+        "rarity": "UNCOMMON",
+        "heal": 35,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "scroll_of_might": {
+        "kind": "buff",
+        "rarity": "COMMON",
+        "power_buff": 3,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "scroll_of_arcane_power": {
+        "kind": "buff",
+        "rarity": "UNCOMMON",
+        "power_buff": 6,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "lucky_dice_amulet": {
+        "kind": "amulet",
+        "rarity": "COMMON",
+        "dice_bonus": 2,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "golden_ring_reroll": {
+        "kind": "amulet",
+        "rarity": "UNCOMMON",
+        "extra_reroll": 1,
+        "loot_weight": 1,
+        "alchemist_stage": 0
+      },
+      "herbal_health_potion": {
+        "kind": "potion",
+        "rarity": "COMMON",
+        "heal": 25,
+        "loot_weight": 1,
+        "alchemist_stage": 1
+      },
+      "scroll_of_resolve": {
+        "kind": "buff",
+        "rarity": "COMMON",
+        "power_buff": 4,
+        "loot_weight": 1,
+        "alchemist_stage": 1
+      },
+      "restoration_health_potion": {
+        "kind": "potion",
+        "rarity": "RARE",
+        "heal": 50,
+        "loot_weight": 1,
+        "alchemist_stage": 2
+      },
+      "scroll_of_valor": {
+        "kind": "buff",
+        "rarity": "RARE",
+        "power_buff": 9,
+        "loot_weight": 1,
+        "alchemist_stage": 2
+      },
+      "vital_health_potion": {
+        "kind": "potion",
+        "rarity": "LEGENDARY",
+        "heal": 75,
+        "loot_weight": 1,
+        "alchemist_stage": 3
+      },
+      "scroll_of_dominion": {
+        "kind": "buff",
+        "rarity": "LEGENDARY",
+        "power_buff": 12,
+        "loot_weight": 1,
+        "alchemist_stage": 3
+      }
+    }
+  },
+  "starter": {
+    "equipment": {
+      "weapon": "rusty_sword",
+      "armor": "leather_armor",
+      "amulet": "lucky_dice_amulet"
+    },
+    "consumables": [
+      {
+        "id": "minor_health_potion",
+        "count": 2
+      },
+      {
+        "id": "scroll_of_might",
+        "count": 2
+      }
+    ],
+    "scale_gear_and_consumables_by_entry_depth": true,
+    "upgrade_count": 0,
+    "allow_saved_winning_equipment_instead": true
+  },
+  "loot": {
+    "offer_count": 3,
+    "pick_count": 1,
+    "without_replacement": true,
+    "destination": "floor_stash",
+    "release": "floor_completed",
+    "alchemist_availability": "snapshot_at_entry"
+  },
+  "rest": {
+    "healing": 15,
+    "uses_per_visit": 1,
+    "descent_healing": 0
+  },
+  "upgrades": {
+    "max_per_item": 5,
+    "price_base": 40,
+    "price_step": 30,
+    "power_gain_by_forge_stage": [
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "economy": {
+    "sale_by_rarity": {
+      "COMMON": 15,
+      "UNCOMMON": 30,
+      "RARE": 60,
+      "LEGENDARY": 120
+    },
+    "gold_per_victory": {
+      "base": 2,
+      "depth_divisor": 20,
+      "regular_multiplier": 1,
+      "elite_multiplier": 2,
+      "boss_multiplier": 4
+    },
+    "first_final_boss_bonus": 999,
+    "repeat_final_boss_reward": 0,
+    "death_positive_net_retention": {
+      "numerator": 1,
+      "denominator": 2,
+      "rounding": "ceil"
+    },
+    "retired_policy": "keep_current_balance",
+    "success_policy": "keep_current_plus_eligible_first_kill_bonus",
+    "shared_wallet": true,
+    "dungeon_entry_fee": 0
+  },
+  "carryover": {
+    "equipment_on": [
+      "success"
+    ],
+    "slots": [
+      "weapon",
+      "armor",
+      "amulet"
+    ],
+    "allow_final_result_equipping": true,
+    "carry_hand": false,
+    "carry_hp": false,
+    "carry_temporary_effects": false
+  },
+  "village": {
+    "initial_stage": 0,
+    "construction_wait": false,
+    "passive_income": 0,
+    "objects": {
+      "square": {
+        "stage_prices": [
+          40,
+          400,
+          4000
+        ],
+        "prerequisites": []
+      },
+      "houses": {
+        "stage_prices": [
+          80,
+          800,
+          8000
+        ],
+        "prerequisites": [
+          {
+            "id": "square",
+            "stage": 1
+          }
+        ]
+      },
+      "chronicler": {
+        "stage_prices": [
+          120,
+          1200,
+          12000
+        ],
+        "prerequisites": [
+          {
+            "id": "square",
+            "stage": 1
+          }
+        ]
+      },
+      "marketplace": {
+        "stage_prices": [
+          200,
+          2000,
+          20000
+        ],
+        "prerequisites": [
+          {
+            "id": "square",
+            "stage": 1
+          }
+        ]
+      },
+      "forge": {
+        "stage_prices": [
+          400,
+          4000,
+          35000
+        ],
+        "prerequisites": [
+          {
+            "id": "marketplace",
+            "stage": 2
+          }
+        ]
+      },
+      "alchemist": {
+        "stage_prices": [
+          400,
+          4000,
+          35000
+        ],
+        "prerequisites": [
+          {
+            "id": "marketplace",
+            "stage": 2
+          }
+        ]
+      }
+    },
+    "automatic_hero_stat_bonus": false,
+    "free_starting_alchemy_cards": false,
+    "cosmetic_extra_price": 0
+  }
+}

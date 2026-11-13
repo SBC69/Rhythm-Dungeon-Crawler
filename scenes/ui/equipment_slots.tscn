@@ -1,0 +1,198 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/equipment_slots.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/ui/equipment_slot_drop.gd" id="2_drop"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_slot"]
+bg_color = Color(0.08, 0.06, 0.12, 0.9)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.5, 0.4, 0.6, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+shadow_color = Color(0, 0, 0, 0.6)
+shadow_size = 4
+
+[node name="EquipmentSlots" type="Control"]
+custom_minimum_size = Vector2(580, 52)
+layout_mode = 3
+anchors_preset = 0
+offset_right = 580.0
+offset_bottom = 52.0
+mouse_filter = 1
+script = ExtResource("1_script")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="WeaponSlot" type="PanelContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(180, 50)
+layout_mode = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_slot")
+script = ExtResource("2_drop")
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/WeaponSlot"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/margin_left = 6
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 6
+theme_override_constants/margin_bottom = 2
+
+[node name="VBox" type="VBoxContainer" parent="HBoxContainer/WeaponSlot/MarginContainer"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="HeaderHBox" type="HBoxContainer" parent="HBoxContainer/WeaponSlot/MarginContainer/VBox"]
+layout_mode = 2
+mouse_filter = 1
+
+[node name="TypeLabel" type="Label" parent="HBoxContainer/WeaponSlot/MarginContainer/VBox/HeaderHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 0.7, 0.4, 1)
+theme_override_font_sizes/font_size = 9
+text = "WEAPON"
+
+[node name="UnequipButton" type="Button" parent="HBoxContainer/WeaponSlot/MarginContainer/VBox/HeaderHBox"]
+theme_type_variation = "CompactButton"
+custom_minimum_size = Vector2(44, 16)
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "Unequip"
+
+[node name="NameLabel" type="Label" parent="HBoxContainer/WeaponSlot/MarginContainer/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "Rusty Sword"
+horizontal_alignment = 1
+text_overrun_behavior = 3
+
+[node name="StatLabel" type="Label" parent="HBoxContainer/WeaponSlot/MarginContainer/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.85, 0.35, 1)
+theme_override_font_sizes/font_size = 10
+text = "+2 power"
+horizontal_alignment = 1
+
+[node name="ArmorSlot" type="PanelContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(180, 50)
+layout_mode = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_slot")
+script = ExtResource("2_drop")
+slot_type = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/ArmorSlot"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/margin_left = 6
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 6
+theme_override_constants/margin_bottom = 2
+
+[node name="VBox" type="VBoxContainer" parent="HBoxContainer/ArmorSlot/MarginContainer"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="HeaderHBox" type="HBoxContainer" parent="HBoxContainer/ArmorSlot/MarginContainer/VBox"]
+layout_mode = 2
+mouse_filter = 1
+
+[node name="TypeLabel" type="Label" parent="HBoxContainer/ArmorSlot/MarginContainer/VBox/HeaderHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(0.65, 0.85, 1, 1)
+theme_override_font_sizes/font_size = 9
+text = "ARMOR"
+
+[node name="UnequipButton" type="Button" parent="HBoxContainer/ArmorSlot/MarginContainer/VBox/HeaderHBox"]
+theme_type_variation = "CompactButton"
+custom_minimum_size = Vector2(44, 16)
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "Unequip"
+
+[node name="NameLabel" type="Label" parent="HBoxContainer/ArmorSlot/MarginContainer/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "Leather Armor"
+horizontal_alignment = 1
+text_overrun_behavior = 3
+
+[node name="StatLabel" type="Label" parent="HBoxContainer/ArmorSlot/MarginContainer/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.5, 0.8, 1, 1)
+theme_override_font_sizes/font_size = 10
+text = "+2 power (-1 damage)"
+horizontal_alignment = 1
+
+[node name="AmuletSlot" type="PanelContainer" parent="HBoxContainer"]
+custom_minimum_size = Vector2(180, 50)
+layout_mode = 2
+mouse_filter = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_slot")
+script = ExtResource("2_drop")
+slot_type = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="HBoxContainer/AmuletSlot"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/margin_left = 6
+theme_override_constants/margin_top = 2
+theme_override_constants/margin_right = 6
+theme_override_constants/margin_bottom = 2
+
+[node name="VBox" type="VBoxContainer" parent="HBoxContainer/AmuletSlot/MarginContainer"]
+layout_mode = 2
+mouse_filter = 1
+theme_override_constants/separation = 0
+alignment = 1
+
+[node name="HeaderHBox" type="HBoxContainer" parent="HBoxContainer/AmuletSlot/MarginContainer/VBox"]
+layout_mode = 2
+mouse_filter = 1
+
+[node name="TypeLabel" type="Label" parent="HBoxContainer/AmuletSlot/MarginContainer/VBox/HeaderHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 0.9, 0.45, 1)
+theme_override_font_sizes/font_size = 9
+text = "AMULET"
+
+[node name="UnequipButton" type="Button" parent="HBoxContainer/AmuletSlot/MarginContainer/VBox/HeaderHBox"]
+theme_type_variation = "CompactButton"
+custom_minimum_size = Vector2(44, 16)
+layout_mode = 2
+theme_override_font_sizes/font_size = 8
+text = "Unequip"
+
+[node name="NameLabel" type="Label" parent="HBoxContainer/AmuletSlot/MarginContainer/VBox"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "Lucky Dice Amulet"
+horizontal_alignment = 1
+text_overrun_behavior = 3
+
+[node name="StatLabel" type="Label" parent="HBoxContainer/AmuletSlot/MarginContainer/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.4, 1)
+theme_override_font_sizes/font_size = 10
+text = "+2 to dice"
+horizontal_alignment = 1

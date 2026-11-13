@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "dungeons": [
+    {
+      "id": "crypts",
+      "name_key": "DUNGEON_CRYPTS",
+      "title": "Катакомбы",
+      "depth": 1,
+      "max_floors": 100,
+      "next_dungeon_id": "ash_forges"
+    },
+    {
+      "id": "ash_forges",
+      "name_key": "DUNGEON_ASH_FORGES",
+      "title": "Пепельные кузни",
+      "depth": 2,
+      "max_floors": 100,
+      "next_dungeon_id": "drowned_temple"
+    },
+    {
+      "id": "drowned_temple",
+      "name_key": "DUNGEON_DROWNED_TEMPLE",
+      "title": "Затонувший храм",
+      "depth": 3,
+      "max_floors": 100,
+      "next_dungeon_id": "crystal_mines"
+    },
+    {
+      "id": "crystal_mines",
+      "name_key": "DUNGEON_CRYSTAL_MINES",
+      "title": "Кристальные шахты",
+      "depth": 4,
+      "max_floors": 100,
+      "next_dungeon_id": "abyss_rift"
+    },
+    {
+      "id": "abyss_rift",
+      "name_key": "DUNGEON_ABYSS_RIFT",
+      "title": "Разлом Бездны",
+      "depth": 5,
+      "max_floors": 100,
+      "next_dungeon_id": null
+    }
+  ]
+}

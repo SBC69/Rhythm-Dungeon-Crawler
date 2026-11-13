@@ -1,0 +1,74 @@
+[gd_scene load_steps=15 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://scenes/dungeon/dungeon_view.tscn" id="2_dungeon"]
+[ext_resource type="PackedScene" path="res://scenes/ui/hud.tscn" id="3_hud"]
+[ext_resource type="PackedScene" path="res://scenes/cards/hand_ui.tscn" id="4_hand"]
+[ext_resource type="PackedScene" path="res://scenes/combat/monster_view.tscn" id="5_monster"]
+[ext_resource type="PackedScene" path="res://scenes/combat/dice_escape.tscn" id="6_dice"]
+[ext_resource type="PackedScene" path="res://scenes/combat/curse_event.tscn" id="7_curse"]
+[ext_resource type="PackedScene" path="res://scenes/cards/loot_picker.tscn" id="8_loot"]
+[ext_resource type="PackedScene" path="res://scenes/rest_area/rest_room.tscn" id="9_rest"]
+[ext_resource type="PackedScene" path="res://scenes/rest_area/merchant_sell_modal.tscn" id="10_shop"]
+[ext_resource type="PackedScene" path="res://scenes/ui/game_over.tscn" id="11_over"]
+[ext_resource type="PackedScene" path="res://scenes/ui/mode_select.tscn" id="12_mode"]
+[ext_resource type="PackedScene" path="res://scenes/village/village_map.tscn" id="13_village"]
+[ext_resource type="PackedScene" path="res://scenes/ui/main_menu.tscn" id="14_menu"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_script")
+
+[node name="DungeonView" parent="." instance=ExtResource("2_dungeon")]
+layout_mode = 1
+
+[node name="HUD" parent="." instance=ExtResource("3_hud")]
+layout_mode = 1
+
+[node name="HandUI" parent="." instance=ExtResource("4_hand")]
+layout_mode = 1
+
+[node name="MonsterView" parent="." instance=ExtResource("5_monster")]
+visible = false
+layout_mode = 1
+
+[node name="DiceEscape" parent="." instance=ExtResource("6_dice")]
+visible = false
+layout_mode = 1
+
+[node name="CurseEvent" parent="." instance=ExtResource("7_curse")]
+visible = false
+layout_mode = 1
+
+[node name="LootPicker" parent="." instance=ExtResource("8_loot")]
+visible = false
+layout_mode = 1
+
+[node name="RestRoom" parent="." instance=ExtResource("9_rest")]
+visible = false
+layout_mode = 1
+
+[node name="MerchantSellModal" parent="." instance=ExtResource("10_shop")]
+visible = false
+layout_mode = 1
+
+[node name="GameOver" parent="." instance=ExtResource("11_over")]
+visible = false
+layout_mode = 1
+
+[node name="ModeSelect" parent="." instance=ExtResource("12_mode")]
+visible = false
+layout_mode = 1
+
+[node name="VillageMap" parent="." instance=ExtResource("13_village")]
+visible = false
+layout_mode = 1
+
+[node name="MainMenu" parent="." instance=ExtResource("14_menu")]
+layout_mode = 1
+

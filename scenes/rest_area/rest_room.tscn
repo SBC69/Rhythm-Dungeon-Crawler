@@ -1,0 +1,244 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="Script" path="res://scripts/rest_area/rest_room.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/rest_area/forge_drop_zone.gd" id="2_forge"]
+
+[ext_resource type="Texture2D" path="res://assets/ui/panel.svg" id="panel_skin"]
+[ext_resource type="Texture2D" path="res://assets/ui/panel-inset.svg" id="panel_inset_skin"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxFlat_panel"]
+texture = ExtResource("panel_skin")
+texture_margin_left = 12.0
+texture_margin_top = 12.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+content_margin_left = 3.0
+content_margin_top = 3.0
+content_margin_right = 3.0
+content_margin_bottom = 3.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxFlat_section"]
+texture = ExtResource("panel_inset_skin")
+texture_margin_left = 12.0
+texture_margin_top = 12.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+content_margin_left = 1.0
+content_margin_top = 1.0
+content_margin_right = 1.0
+content_margin_bottom = 1.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxFlat_gold"]
+texture = ExtResource("panel_skin")
+texture_margin_left = 12.0
+texture_margin_top = 12.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+
+[node name="RestRoom" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_script")
+
+[node name="Dimmer" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0.45)
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(800, 375)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -400.0
+offset_top = -282.0
+offset_right = 400.0
+offset_bottom = 95.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 24
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_right = 24
+theme_override_constants/margin_bottom = 10
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="TopBar" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="GoldBadge" type="PanelContainer" parent="PanelContainer/MarginContainer/VBoxContainer/TopBar"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_gold")
+
+[node name="Margin" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer/TopBar/GoldBadge"]
+layout_mode = 2
+theme_override_constants/margin_left = 10
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 10
+theme_override_constants/margin_bottom = 4
+
+[node name="GoldBadgeLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/TopBar/GoldBadge/Margin"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.4, 1)
+theme_override_font_sizes/font_size = 13
+text = "Wallet: 40 gold"
+
+[node name="Spacer" type="Control" parent="PanelContainer/MarginContainer/VBoxContainer/TopBar"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.85, 0.35, 1)
+theme_override_font_sizes/font_size = 16
+text = "FLOOR 1 CLEARED! BOSS DEFEATED!"
+horizontal_alignment = 1
+
+[node name="EquipHint" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.65, 0.85, 1, 1)
+theme_override_font_sizes/font_size = 11
+text = "Cards below: Tab / Shift+Tab or arrows to select; Enter / Space to equip or use."
+horizontal_alignment = 1
+
+[node name="CampfireSection" type="PanelContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_section")
+
+[node name="Margin" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer/CampfireSection"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 6
+
+[node name="VBox" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/CampfireSection/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="SectionTitle" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/CampfireSection/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.6, 0.3, 1)
+theme_override_font_sizes/font_size = 12
+text = "WARM CAMPFIRE (Rest and healing)"
+
+[node name="RestButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/CampfireSection/Margin/VBox"]
+custom_minimum_size = Vector2(340, 32)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_font_sizes/font_size = 12
+text = "Rest at Campfire (+15 HP)"
+
+[node name="ForgeSection" type="PanelContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_section")
+script = ExtResource("2_forge")
+
+[node name="Margin" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer/ForgeSection"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 6
+
+[node name="VBox" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/ForgeSection/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="SectionTitle" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/ForgeSection/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.75, 0.4, 1)
+theme_override_font_sizes/font_size = 12
+text = "FORGE (Weapon upgrades)"
+
+[node name="ForgeWeaponLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/ForgeSection/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9, 0.9, 0.95, 1)
+theme_override_font_sizes/font_size = 11
+text = "Current weapon: Rusty Sword (Power: 2)"
+
+[node name="ForgeButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/ForgeSection/Margin/VBox"]
+custom_minimum_size = Vector2(340, 32)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_font_sizes/font_size = 12
+text = "Sharpen weapon (+2 power) — 40 gold"
+
+[node name="MerchantSection" type="PanelContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_section")
+
+[node name="Margin" type="MarginContainer" parent="PanelContainer/MarginContainer/VBoxContainer/MerchantSection"]
+layout_mode = 2
+theme_override_constants/margin_left = 14
+theme_override_constants/margin_top = 6
+theme_override_constants/margin_right = 14
+theme_override_constants/margin_bottom = 6
+
+[node name="VBox" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer/MerchantSection/Margin"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="SectionTitle" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/MerchantSection/Margin/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6, 0.85, 1, 1)
+theme_override_font_sizes/font_size = 12
+text = "TROPHY MERCHANT (Sell cards)"
+
+[node name="MerchantButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/MerchantSection/Margin/VBox"]
+custom_minimum_size = Vector2(340, 32)
+layout_mode = 2
+size_flags_horizontal = 0
+theme_override_colors/font_color = Color(1, 0.9, 0.4, 1)
+theme_override_font_sizes/font_size = 12
+text = "Open merchant shop (Sell)"
+
+[node name="ActionsBox" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 16
+alignment = 1
+
+[node name="DescendButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/ActionsBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(280, 40)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4, 1, 0.5, 1)
+theme_override_font_sizes/font_size = 13
+text = "Descend deeper"
+
+[node name="RetireButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/ActionsBox"]
+custom_minimum_size = Vector2(240, 40)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.9, 0.75, 0.4, 1)
+theme_override_font_sizes/font_size = 12
+text = "Leave in triumph"

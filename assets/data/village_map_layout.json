@@ -1,0 +1,115 @@
+{
+  "canvas": {
+    "width": 1280,
+    "height": 800
+  },
+  "background": "res://assets/sprites/village/village_ground.png",
+  "anchor_offset": [128, 224],
+  "nodes": {
+    "dungeon_entrance": {
+      "object_id": "dungeon_entrance",
+      "name_ru": "Вход в подземелье",
+      "name_en": "Dungeon Entrance",
+      "x": 640,
+      "y": 110,
+      "sprite": "res://assets/sprites/village/dungeon_entrance.png",
+      "is_building": false,
+      "neighbors": {
+        "left": "houses",
+        "right": "chronicler",
+        "top": "dungeon_entrance",
+        "bottom": "square"
+      }
+    },
+    "chronicler": {
+      "object_id": "chronicler",
+      "name_ru": "Дом летописца",
+      "name_en": "Chronicler's House",
+      "x": 950,
+      "y": 210,
+      "sprite_pattern": "res://assets/sprites/village/chronicler/stage_%d.png",
+      "is_building": true,
+      "neighbors": {
+        "left": "square",
+        "right": "chronicler",
+        "top": "dungeon_entrance",
+        "bottom": "alchemist"
+      }
+    },
+    "houses": {
+      "object_id": "houses",
+      "name_ru": "Жилые дома",
+      "name_en": "Residential Houses",
+      "x": 300,
+      "y": 230,
+      "sprite_pattern": "res://assets/sprites/village/houses/stage_%d.png",
+      "is_building": true,
+      "neighbors": {
+        "left": "houses",
+        "right": "square",
+        "top": "dungeon_entrance",
+        "bottom": "marketplace"
+      }
+    },
+    "square": {
+      "object_id": "square",
+      "name_ru": "Центральная площадь",
+      "name_en": "Town Square",
+      "x": 640,
+      "y": 380,
+      "sprite_pattern": "res://assets/sprites/village/square/stage_%d.png",
+      "is_building": true,
+      "neighbors": {
+        "left": "houses",
+        "right": "chronicler",
+        "top": "dungeon_entrance",
+        "bottom": "forge"
+      }
+    },
+    "alchemist": {
+      "object_id": "alchemist",
+      "name_ru": "Дом алхимика",
+      "name_en": "Alchemist's Lab",
+      "x": 1000,
+      "y": 430,
+      "sprite_pattern": "res://assets/sprites/village/alchemist/stage_%d.png",
+      "is_building": true,
+      "neighbors": {
+        "left": "square",
+        "right": "alchemist",
+        "top": "chronicler",
+        "bottom": "forge"
+      }
+    },
+    "marketplace": {
+      "object_id": "marketplace",
+      "name_ru": "Торговая площадь",
+      "name_en": "Marketplace",
+      "x": 340,
+      "y": 570,
+      "sprite_pattern": "res://assets/sprites/village/marketplace/stage_%d.png",
+      "is_building": true,
+      "neighbors": {
+        "left": "marketplace",
+        "right": "forge",
+        "top": "houses",
+        "bottom": "marketplace"
+      }
+    },
+    "forge": {
+      "object_id": "forge",
+      "name_ru": "Кузница",
+      "name_en": "Forge",
+      "x": 770,
+      "y": 610,
+      "sprite_pattern": "res://assets/sprites/village/forge/stage_%d.png",
+      "is_building": true,
+      "neighbors": {
+        "left": "marketplace",
+        "right": "alchemist",
+        "top": "square",
+        "bottom": "forge"
+      }
+    }
+  }
+}

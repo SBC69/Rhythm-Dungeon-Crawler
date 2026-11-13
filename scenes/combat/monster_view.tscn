@@ -1,0 +1,142 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/combat/monster_view.gd" id="1_script"]
+
+[ext_resource type="Texture2D" path="res://assets/ui/panel.svg" id="panel_skin"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxFlat_panel"]
+texture = ExtResource("panel_skin")
+texture_margin_left = 12.0
+texture_margin_top = 12.0
+texture_margin_right = 12.0
+texture_margin_bottom = 12.0
+axis_stretch_horizontal = 1
+axis_stretch_vertical = 1
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+
+[node name="MonsterView" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1_script")
+
+[node name="ColorRectDim" type="ColorRect" parent="."]
+z_index = -1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.035, 0.025, 0.055, 1)
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(580, 350)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -290.0
+offset_top = -285.0
+offset_right = 290.0
+offset_bottom = 65.0
+grow_horizontal = 2
+grow_vertical = 1
+theme_override_styles/panel = SubResource("StyleBoxFlat_panel")
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 8
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 8
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Header" type="VBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 1
+
+[node name="TitleLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/Header"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.75, 0.65, 0.85, 1)
+theme_override_font_sizes/font_size = 12
+text = "Monster title"
+horizontal_alignment = 1
+
+[node name="NameLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer/Header"]
+theme_type_variation = "DungeonHeading"
+layout_mode = 2
+theme_override_font_sizes/font_size = 18
+text = "Enemy name"
+horizontal_alignment = 1
+
+[node name="MonsterTexture" type="TextureRect" parent="PanelContainer/MarginContainer/VBoxContainer"]
+custom_minimum_size = Vector2(130, 130)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+pivot_offset = Vector2(65, 65)
+expand_mode = 1
+stretch_mode = 5
+
+[node name="FlavorLabel" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.7, 0.7, 0.75, 1)
+theme_override_font_sizes/font_size = 11
+text = "Monster description..."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="PowerComparison" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 0.9, 0.4, 1)
+theme_override_font_sizes/font_size = 16
+text = "Your power: X — Enemy power: Y"
+horizontal_alignment = 1
+
+[node name="StatusHint" type="Label" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 11
+text = "Hint..."
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="Buttons" type="HBoxContainer" parent="PanelContainer/MarginContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="VictoryButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/Buttons"]
+unique_name_in_owner = true
+visible = false
+custom_minimum_size = Vector2(300, 38)
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+text = "AUTOMATIC VICTORY!"
+
+[node name="FightPenaltyButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/Buttons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(250, 38)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "FIGHT (Take -X HP)"
+
+[node name="EscapeButton" type="Button" parent="PanelContainer/MarginContainer/VBoxContainer/Buttons"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(220, 38)
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "DICE ESCAPE"

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "objects": {
+    "square": {
+      "object_id": "square",
+      "name_key": "VILLAGE_SQUARE",
+      "prerequisite": null,
+      "costs": [40, 400, 4000],
+      "visual_states": {
+        "0": "Завалы, сломанный указатель",
+        "1": "Расчищенная дорожка и указатели",
+        "2": "Колодец, фонари и жители",
+        "3": "Восстановленный центр и памятник походам"
+      }
+    },
+    "houses": {
+      "object_id": "houses",
+      "name_key": "VILLAGE_HOUSES",
+      "prerequisite": {"object_id": "square", "min_stage": 1},
+      "costs": [80, 800, 8000],
+      "visual_states": {
+        "0": "Три повреждённых фасада",
+        "1": "Один заселённый дом, история 1",
+        "2": "Восстановленный квартал, история 2",
+        "3": "Все дома восстановлены, история 3"
+      }
+    },
+    "chronicler": {
+      "object_id": "chronicler",
+      "name_key": "VILLAGE_CHRONICLER",
+      "prerequisite": {"object_id": "square", "min_stage": 1},
+      "costs": [120, 1200, 12000],
+      "visual_states": {
+        "0": "Закрытый дом, мокрые листы у порога",
+        "1": "Стол, книга и подробный журнал",
+        "2": "Шкафы и стол сравнения походов",
+        "3": "Стена памятных записей о подземельях"
+      }
+    },
+    "marketplace": {
+      "object_id": "marketplace",
+      "name_key": "VILLAGE_MARKETPLACE",
+      "prerequisite": {"object_id": "square", "min_stage": 1},
+      "costs": [200, 2000, 20000],
+      "visual_states": {
+        "0": "Пустые прилавки",
+        "1": "Лавка с оформлением героя",
+        "2": "Стенд карт и кубиков",
+        "3": "Прилавок оформления деревни"
+      }
+    },
+    "forge": {
+      "object_id": "forge",
+      "name_key": "VILLAGE_FORGE",
+      "prerequisite": {"object_id": "marketplace", "min_stage": 2},
+      "costs": [400, 4000, 35000],
+      "visual_states": {
+        "0": "Разрушенный горн",
+        "1": "Рабочий горн под навесом",
+        "2": "Отремонтированное здание и верстак",
+        "3": "Восстановленная мастерская и вывеска"
+      }
+    },
+    "alchemist": {
+      "object_id": "alchemist",
+      "name_key": "VILLAGE_ALCHEMIST",
+      "prerequisite": {"object_id": "marketplace", "min_stage": 2},
+      "costs": [400, 4000, 35000],
+      "visual_states": {
+        "0": "Пустой повреждённый дом",
+        "1": "Стол травника и простые флаконы",
+        "2": "Лабораторный стол и полки",
+        "3": "Полностью восстановленная лаборатория"
+      }
+    }
+  }
+}

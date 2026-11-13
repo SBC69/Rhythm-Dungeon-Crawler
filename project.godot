@@ -1,0 +1,51 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Rhythm Dungeon Crawler"
+config/description="Dark Fantasy Rhythm Dungeon Crawler"
+; Keep existing saves and settings when changing the display name.
+config/use_custom_user_dir=true
+config/custom_user_dir_name="Godot/app_userdata/Dungeon of Cards"
+config/custom_user_dir_name.linux="godot/app_userdata/Dungeon of Cards"
+config/icon="res://assets/branding/rdc-icon.png"
+config/windows_native_icon="res://assets/branding/rdc-icon.ico"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.5", "GL Compatibility")
+
+[autoload]
+
+UserSettings="*res://scripts/autoload/user_settings.gd"
+GameManager="*res://scripts/autoload/game_manager.gd"
+CardDatabase="*res://scripts/autoload/card_database.gd"
+MonsterDatabase="*res://scripts/autoload/monster_database.gd"
+SoundManager="*res://scripts/autoload/sound_manager.gd"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
+
+[internationalization]
+
+locale/translations=PackedStringArray("res://localization/messages.en.translation", "res://localization/messages.ru.translation", "res://localization/messages.es.translation", "res://localization/messages.zh_CN.translation")
+locale/fallback="en"
+
+[gui]
+
+theme/custom="res://assets/ui/dungeon_theme.tres"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

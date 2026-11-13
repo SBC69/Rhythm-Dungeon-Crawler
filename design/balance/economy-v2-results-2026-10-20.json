@@ -1,0 +1,353 @@
+{
+  "version": 2,
+  "trialsPerPolicy": 1000,
+  "seedBase": 539365408,
+  "scenarioBasis": "APPROVED dungeon progression; first clear of each dungeon",
+  "balanceVersion": "2026-10-20.v1",
+  "balanceSha256": "6b163d804c973428169efe2f0f135bd2c3e1b067fd91f55a932f7b4da34a2e1d",
+  "conditionalOn": "five distinct successful first clears; no combat or HP simulation; no win-rate inference",
+  "assumptions": {
+    "scrollBuffer": 4,
+    "potionBuffer": 3,
+    "potionBudget": "one every third floor",
+    "villageReservePolicy": 500,
+    "villageReserveIsGameRule": false,
+    "equipmentDropAvailabilitySimulated": false,
+    "finalFloorLootSales": false,
+    "finalBonusTiming": "after first permanent death of each final boss",
+    "reforgePrice": 500,
+    "weaponCostMeans": "replacement and five upgrades; not upgrading the same item beyond U5"
+  },
+  "prices": {
+    "square": [
+      40,
+      400,
+      4000
+    ],
+    "houses": [
+      80,
+      800,
+      8000
+    ],
+    "chronicler": [
+      120,
+      1200,
+      12000
+    ],
+    "marketplace": [
+      200,
+      2000,
+      20000
+    ],
+    "forge": [
+      400,
+      4000,
+      35000
+    ],
+    "alchemist": [
+      400,
+      4000,
+      35000
+    ]
+  },
+  "purchasePriority": [
+    [
+      "square",
+      1
+    ],
+    [
+      "houses",
+      1
+    ],
+    [
+      "chronicler",
+      1
+    ],
+    [
+      "marketplace",
+      1
+    ],
+    [
+      "marketplace",
+      2
+    ],
+    [
+      "forge",
+      1
+    ],
+    [
+      "alchemist",
+      1
+    ],
+    [
+      "forge",
+      2
+    ],
+    [
+      "alchemist",
+      2
+    ],
+    [
+      "square",
+      2
+    ],
+    [
+      "houses",
+      2
+    ],
+    [
+      "chronicler",
+      2
+    ],
+    [
+      "square",
+      3
+    ],
+    [
+      "houses",
+      3
+    ],
+    [
+      "chronicler",
+      3
+    ],
+    [
+      "marketplace",
+      3
+    ],
+    [
+      "forge",
+      3
+    ],
+    [
+      "alchemist",
+      3
+    ]
+  ],
+  "allVillageStagesCost": 127640,
+  "scenarios": [
+    {
+      "policy": {
+        "id": "regular_trader",
+        "sellProbability": 1,
+        "reforgeEvery": 5
+      },
+      "runs": [
+        {
+          "dungeon": 1,
+          "gross": 5797,
+          "salesMedian": 24675,
+          "upgradesMedian": 9500,
+          "netMedian": 20972,
+          "walletMedian": 3372,
+          "walletP10": 2862,
+          "walletP90": 3837,
+          "stagesMedian": 13,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 2,
+          "gross": 11792,
+          "salesMedian": 26505,
+          "upgradesMedian": 9500,
+          "netMedian": 28797,
+          "walletMedian": 12169,
+          "walletP10": 11464,
+          "walletP90": 12859,
+          "stagesMedian": 15,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 3,
+          "gross": 17787,
+          "salesMedian": 26505,
+          "upgradesMedian": 9500,
+          "netMedian": 34792,
+          "walletMedian": 26946,
+          "walletP10": 26106,
+          "walletP90": 27816,
+          "stagesMedian": 16,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 4,
+          "gross": 23782,
+          "salesMedian": 26475,
+          "upgradesMedian": 9500,
+          "netMedian": 40757,
+          "walletMedian": 32748,
+          "walletP10": 31758,
+          "walletP90": 33723,
+          "stagesMedian": 17,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 5,
+          "gross": 29777,
+          "salesMedian": 26460,
+          "upgradesMedian": 9500,
+          "netMedian": 46737,
+          "walletMedian": 44530,
+          "walletP10": 43435,
+          "walletP90": 45595,
+          "stagesMedian": 18,
+          "allStagesScenarios": 1000,
+          "resourceBudgetShortagesMedian": 0
+        }
+      ]
+    },
+    {
+      "policy": {
+        "id": "partial_trader",
+        "sellProbability": 0.7,
+        "reforgeEvery": 5
+      },
+      "runs": [
+        {
+          "dungeon": 1,
+          "gross": 5797,
+          "salesMedian": 17280,
+          "upgradesMedian": 9500,
+          "netMedian": 13577,
+          "walletMedian": 1032,
+          "walletP10": 607,
+          "walletP90": 1492,
+          "stagesMedian": 11,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 2,
+          "gross": 11792,
+          "salesMedian": 18570,
+          "upgradesMedian": 9500,
+          "netMedian": 20862,
+          "walletMedian": 8809,
+          "walletP10": 7699,
+          "walletP90": 9919,
+          "stagesMedian": 14,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 3,
+          "gross": 17787,
+          "salesMedian": 18570,
+          "upgradesMedian": 9500,
+          "netMedian": 26857,
+          "walletMedian": 3651,
+          "walletP10": 2256,
+          "walletP90": 5061,
+          "stagesMedian": 16,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 4,
+          "gross": 23782,
+          "salesMedian": 18525,
+          "upgradesMedian": 9500,
+          "netMedian": 32807,
+          "walletMedian": 2238,
+          "walletP10": 918,
+          "walletP90": 35033,
+          "stagesMedian": 17,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 5,
+          "gross": 29777,
+          "salesMedian": 18600,
+          "upgradesMedian": 9500,
+          "netMedian": 38877,
+          "walletMedian": 5305,
+          "walletP10": 3535,
+          "walletP90": 7045,
+          "stagesMedian": 18,
+          "allStagesScenarios": 999,
+          "resourceBudgetShortagesMedian": 0
+        }
+      ]
+    },
+    {
+      "policy": {
+        "id": "frequent_reforge",
+        "sellProbability": 1,
+        "reforgeEvery": 2
+      },
+      "runs": [
+        {
+          "dungeon": 1,
+          "gross": 5797,
+          "salesMedian": 24675,
+          "upgradesMedian": 24500,
+          "netMedian": 6122,
+          "walletMedian": 2922,
+          "walletP10": 2382,
+          "walletP90": 3452,
+          "stagesMedian": 7,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 2,
+          "gross": 11792,
+          "salesMedian": 23160,
+          "upgradesMedian": 24500,
+          "netMedian": 10452,
+          "walletMedian": 2944,
+          "walletP10": 2229,
+          "walletP90": 3679,
+          "stagesMedian": 12,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 3,
+          "gross": 17787,
+          "salesMedian": 26520,
+          "upgradesMedian": 24500,
+          "netMedian": 19807,
+          "walletMedian": 10736,
+          "walletP10": 9896,
+          "walletP90": 11626,
+          "stagesMedian": 14,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 4,
+          "gross": 23782,
+          "salesMedian": 26505,
+          "upgradesMedian": 24500,
+          "netMedian": 25787,
+          "walletMedian": 4553,
+          "walletP10": 3593,
+          "walletP90": 5513,
+          "stagesMedian": 16,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        },
+        {
+          "dungeon": 5,
+          "gross": 29777,
+          "salesMedian": 26475,
+          "upgradesMedian": 24500,
+          "netMedian": 31752,
+          "walletMedian": 1680,
+          "walletP10": 765,
+          "walletP90": 35045,
+          "stagesMedian": 17,
+          "allStagesScenarios": 0,
+          "resourceBudgetShortagesMedian": 0
+        }
+      ]
+    }
+  ],
+  "conservationChecks": "passed for all scenarios"
+}

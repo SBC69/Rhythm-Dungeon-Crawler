@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "regular_monsters": [
+    {
+      "id": "skeleton",
+      "name": "Скелет-воин",
+      "title": "Хранитель катакомб",
+      "base_power": 4,
+      "sprite": "res://assets/sprites/monsters/skeleton.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Древние кости сжимают зазубренный меч."
+    },
+    {
+      "id": "shadow_ghoul",
+      "name": "Чумной упырь",
+      "title": "Обитатель тьмы",
+      "base_power": 5,
+      "sprite": "res://assets/sprites/monsters/shadow_ghoul-pixel.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Его дыхание отравляет воздух склепа."
+    },
+    {
+      "id": "crypt_knight",
+      "name": "Падший рыцарь",
+      "title": "Проклятый страж",
+      "base_power": 6,
+      "sprite": "res://assets/sprites/monsters/crypt_knight-pixel.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Ржавые латы хранят клятву вечной службы."
+    },
+    {
+      "id": "abyss_demon",
+      "name": "Демон Бездны",
+      "title": "Крылатый охотник",
+      "base_power": 6,
+      "sprite": "res://assets/sprites/monsters/boss_archon-pixel.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Из темноты выступает рогатый охотник с раскалённым клинком."
+    },
+    {
+      "id": "cave_spider",
+      "name": "Пещерный паук",
+      "title": "Обитатель подземелья",
+      "sprite": "res://assets/sprites/monsters/cave_spider.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Из темноты появляется пещерный паук.",
+      "base_power": 3
+    },
+    {
+      "id": "dungeon_slime",
+      "name": "Подземный слизень",
+      "title": "Обитатель подземелья",
+      "sprite": "res://assets/sprites/monsters/dungeon_slime.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Из темноты появляется подземный слизень.",
+      "base_power": 3
+    },
+    {
+      "id": "restless_ghost",
+      "name": "Неприкаянный призрак",
+      "title": "Обитатель подземелья",
+      "sprite": "res://assets/sprites/monsters/restless_ghost.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Из темноты появляется неприкаянный призрак.",
+      "base_power": 4
+    },
+    {
+      "id": "werewolf",
+      "name": "Волколюд",
+      "title": "Обитатель подземелья",
+      "sprite": "res://assets/sprites/monsters/werewolf.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Из темноты появляется волколюд.",
+      "base_power": 5
+    },
+    {
+      "id": "goblin_raider",
+      "name": "Гоблин-налётчик",
+      "title": "Обитатель подземелья",
+      "sprite": "res://assets/sprites/monsters/goblin_raider.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Из темноты появляется гоблин-налётчик.",
+      "base_power": 4
+    },
+    {
+      "id": "stone_golem",
+      "name": "Каменный голем",
+      "title": "Обитатель подземелья",
+      "sprite": "res://assets/sprites/monsters/stone_golem.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Из темноты появляется каменный голем.",
+      "base_power": 6
+    },
+    {
+      "id": "bound_djinn",
+      "name": "Скованный джинн",
+      "title": "Обитатель подземелья",
+      "sprite": "res://assets/sprites/monsters/bound_djinn.png",
+      "tint": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "flavor": "Из темноты появляется скованный джинн.",
+      "base_power": 5
+    }
+  ],
+  "floor_bosses": [
+    {
+      "id": "boss_lich",
+      "name": "Лорд-Лич Малгор",
+      "title": "Владыка некрополя",
+      "base_power": 9,
+      "sprite": "res://assets/sprites/monsters/boss_lich.png",
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flavor": "Древний некромант, повелевающий душами павших авантюристов."
+    },
+    {
+      "id": "boss_archon",
+      "name": "Архидемон Бездны",
+      "title": "Пожиратель душ",
+      "base_power": 12,
+      "sprite": "res://assets/sprites/monsters/boss_archon-pixel.png",
+      "tint": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "flavor": "Истинный ужас нижних ярусов подземелья."
+    }
+  ],
+  "curses": [
+    {
+      "id": "spike_trap",
+      "name": "Шиповая ловушка",
+      "title": "Скрытый механизм",
+      "type": "trap",
+      "dc": 6,
+      "damage_on_fail": 12,
+      "flavor": "Плита под ногами щелкает, из пола вырываются острые стальные шипы!",
+      "sprite": "res://assets/sprites/dungeon/curse_trap.png"
+    },
+    {
+      "id": "cursed_altar",
+      "name": "Проклятый алтарь",
+      "title": "Оккультный шепот",
+      "type": "curse",
+      "dc": 7,
+      "damage_on_fail": 8,
+      "power_drain": 1,
+      "flavor": "Зловещий алтарь вытягивает жизненную силу и ослабляет вашу мощь на 1.",
+      "sprite": "res://assets/sprites/dungeon/curse_trap.png"
+    },
+    {
+      "id": "poison_gas",
+      "name": "Чумной туман",
+      "title": "Ядовитые испарения",
+      "type": "trap",
+      "dc": 5,
+      "damage_on_fail": 10,
+      "flavor": "В коридоре клубится едкий зеленоватый газ, разъедающий легкие.",
+      "sprite": "res://assets/sprites/dungeon/curse_trap.png"
+    }
+  ]
+}

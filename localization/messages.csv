@@ -1,0 +1,733 @@
+keys,en,ru,es,zh_CN
+UI_OK,OK,ОК,Vale,确定
+UI_CANCEL,Cancel,Отмена,Cancelar,取消
+UI_CLOSE,Close,Закрыть,Cerrar,关闭
+UI_DESCEND,Descend,Спуститься,Descender,下潜
+UI_RETIRE,Retire,Завершить поход,Terminar expedición,结束探险
+UI_REST,Rest at Campfire (+15 HP),Отдохнуть у костра (+15 HP),Descansar en la hoguera (+15 HP),在营火旁休息（+15 HP）
+UI_FORGE,Sharpen Weapon,Заточить оружие,Afilar arma,磨利武器
+UI_MERCHANT,Merchant Shop,Лавка скупщика,Tienda del mercader,商人店铺
+UI_MODE_SELECT_TITLE,CHOOSE ADVENTURE MODE,ВЫБОР РЕЖИМА ПРИКЛЮЧЕНИЯ,ELIGE EL MODO DE AVENTURA,选择冒险模式
+UI_MODE_TIMED,100 Floors Run (Timed),Поход на 100 этажей (На время),Expedición de 100 pisos (Contrarreloj),100层探险（计时）
+UI_MODE_ENDLESS,Endless Descent (Completed Floors),Бесконечный спуск (Покорённые этажи),Descenso infinito (Pisos completados),无尽下潜（已完成层数）
+UI_CONTINUE_ENDLESS,Continue Endless Run,Продолжить бесконечный поход,Continuar expedición infinita,继续无尽探险
+UI_WALLET_GOLD,Wallet: %d gold,Кошелек: %d золота,Monedero: %d de oro,钱包：%d 金币
+UI_HP,Health,Здоровье,Salud,生命值
+UI_POWER,Power,Мощь,Poder,战力
+UI_CONFIRM_SELL_TITLE,CONFIRM SALE,ПОДТВЕРЖДЕНИЕ ПРОДАЖИ,CONFIRMAR VENTA,确认出售
+UI_CONFIRM_SELL_DETAILS,"Sell ""%s"" for %d gold?",Продать «%s» за %d золота?,¿Vender «%s» por %d de oro?,以 %s 换取 %d 金币？
+UI_SELL_SUCCESS,Sold: %s (+%d gold)!,Продано: %s (+%d золота)!,¡Vendido: %s (+%d de oro)!,已出售：%s（+%d 金币）！
+UI_SELL_FAIL,Failed to sell item,Не удалось продать предмет,No se pudo vender el objeto,无法出售物品
+UI_CHEST_SUBTITLE,Loot goes to the floor chest. Equip gear immediately from the inventory; potions and scrolls unlock after the boss.,Добыча — в сундуке этажа. Снаряжение можно надеть через инвентарь сразу; зелья и свитки откроются после босса.,El botín va al cofre del piso. Equipa objetos desde el inventario al instante; las pociones y los pergaminos se desbloquean tras el jefe.,战利品会存入本层宝箱。可立即在背包中装备物品；药水和卷轴在击败首领后解锁。
+DOOR_REGULAR,Door,Дверь,Puerta,门
+DOOR_LEFT,Left Door,Левая дверь,Puerta izquierda,左门
+DOOR_CENTER,Center Door,Центральная дверь,Puerta central,中门
+DOOR_RIGHT,Right Door,Правая дверь,Puerta derecha,右门
+DOOR_BOSS,BOSS GATE,ВРАТА БОССА,PUERTA DEL JEFE,首领之门
+RARITY_COMMON,Common,Обычная,Común,普通
+RARITY_UNCOMMON,Uncommon,Необычная,Poco común,精良
+RARITY_RARE,Rare,Редкая,Raro,稀有
+RARITY_LEGENDARY,Legendary,Легендарная,Legendario,传说
+CARD_TYPE_WEAPON,[ WEAPON ],[ ОРУЖИЕ ],[ ARMA ],[ 武器 ]
+CARD_TYPE_ARMOR,[ ARMOR ],[ БРОНЯ ],[ ARMADURA ],[ 护甲 ]
+CARD_TYPE_POTION,[ POTION ],[ ЗЕЛЬЕ ],[ POCIÓN ],[ 药水 ]
+CARD_TYPE_BUFF,[ BUFF SCROLL ],[ СВИТОК БАФФА ],[ PERGAMINO ],[ 增益卷轴 ]
+CARD_TYPE_AMULET,[ LUCK AMULET ],[ АМУЛЕТ УДАЧИ ],[ AMULETO DE SUERTE ],[ 幸运护符 ]
+CARD_RUSTY_SWORD,Rusty Sword,Ржавый меч,Espada oxidada,锈剑
+CARD_IRON_BLADE,Iron Blade,Кованый клинок,Hoja de hierro,铁刃
+CARD_RADIANT_BROADSWORD,Radiant Broadsword,Сияющий палаш,Espadón radiante,辉光阔剑
+CARD_LEATHER_ARMOR,Leather Armor,Кожаный доспех,Armadura de cuero,皮甲
+CARD_SPIKED_SHIELD,Spiked Shield,Шипастый щит,Escudo con púas,尖刺盾牌
+CARD_ROYAL_PLATE,Royal Plate,Королевские латы,Armadura real,皇家板甲
+CARD_MINOR_HEALTH_POTION,Minor Health Potion,Малое зелье здоровья,Poción de salud menor,小型生命药水
+CARD_GREATER_HEALTH_POTION,Greater Health Potion,Большое зелье здоровья,Poción de salud mayor,大型生命药水
+CARD_HERBAL_HEALTH_POTION,Herbal Health Potion,Травяное зелье,Poción de hierbas,草药药水
+CARD_RESTORATION_HEALTH_POTION,Restoration Potion,Зелье восстановления,Poción restauradora,恢复药水
+CARD_VITAL_HEALTH_POTION,Vital Health Potion,Зелье жизненной силы,Poción de vitalidad,活力药水
+CARD_SCROLL_OF_MIGHT,Scroll of Might,Свиток ярости,Pergamino de poder,力量卷轴
+CARD_SCROLL_OF_ARCANE_POWER,Arcane Scroll,Тайный свиток,Pergamino arcano,奥术卷轴
+CARD_SCROLL_OF_RESOLVE,Scroll of Resolve,Свиток решимости,Pergamino de determinación,决心卷轴
+CARD_SCROLL_OF_VALOR,Scroll of Valor,Свиток доблести,Pergamino de valor,勇气卷轴
+CARD_SCROLL_OF_DOMINION,Scroll of Dominion,Свиток господства,Pergamino de dominio,统御卷轴
+CARD_LUCKY_DICE_AMULET,Lucky Dice Amulet,Амулет удачи,Amuleto de dados de la suerte,幸运骰子护符
+CARD_GOLDEN_RING_REROLL,Ring of Fortune,Кольцо фортуны,Anillo de la fortuna,命运之戒
+VILLAGE_SQUARE,Village Square,Центральная площадь,Plaza del pueblo,村庄广场
+VILLAGE_HOUSES,Houses,Жилые дома,Viviendas,住宅
+VILLAGE_CHRONICLER,Chronicler,Дом летописца,Cronista,编年史家
+VILLAGE_MARKETPLACE,Marketplace,Торговая площадь,Mercado,集市
+VILLAGE_FORGE,Forge,Кузница,Forja,铁匠铺
+VILLAGE_ALCHEMIST,Alchemist,Дом алхимика,Alquimista,炼金术士
+STORY_HOUSES_01,The First Settlers,Первые переселенцы,Los primeros colonos,第一批定居者
+STORY_HOUSES_02,Revival of Crafts,Возрождение ремесел,Renacer de los oficios,工艺复兴
+STORY_HOUSES_03,Warm Hearths,Теплые очаги,Hogares cálidos,温暖的炉火
+MEMORY_FIRST_FLOOR,First Frontier,Первый рубеж,La primera frontera,初次突破
+MEMORY_FINAL_BOSS,Fall of the Overlord,Падение Повелителя,La caída del soberano,霸主陨落
+MEMORY_NEXT_DUNGEON,New Horizons,Новые горизонты,Nuevos horizontes,新的地平线
+COSMETIC_HERO_ROAD_CLOAK,Traveler's Cloak,Дорожный плащ,Capa de viajero,旅人斗篷
+COSMETIC_HERO_VILLAGE_GUARD,Town Guard Armor,Доспех стража,Armadura de la guardia,村庄卫兵护甲
+COSMETIC_CARDS_OAK,Oak Cardback,Дубовая рубашка,Reverso de roble,橡木卡背
+COSMETIC_CARDS_STARLIGHT,Starlight Cardback,Звездная рубашка,Reverso estelar,星光卡背
+COSMETIC_DICE_BONE,Bone Dice,Костяные кости,Dados de hueso,骨骰
+COSMETIC_DICE_COPPER,Copper Dice,Медные кости,Dados de cobre,铜骰
+COSMETIC_VILLAGE_WARM_EVENING,Warm Evening,Теплый вечер,Atardecer cálido,温暖的傍晚
+COSMETIC_VILLAGE_FAIR,Village Fair,Праздничная ярмарка,Feria del pueblo,村庄庆典
+DUNGEON_CRYPTS,Crypts,Катакомбы,Criptas,地下墓穴
+DUNGEON_ASH_FORGES,Ash Forges,Пепельные кузни,Forjas de ceniza,灰烬熔炉
+DUNGEON_DROWNED_TEMPLE,Drowned Temple,Затонувший храм,Templo sumergido,沉没神殿
+DUNGEON_CRYSTAL_MINES,Crystal Mines,Кристальные шахты,Minas de cristal,水晶矿井
+DUNGEON_ABYSS_RIFT,Abyss Rift,Разлом Бездны,Grieta del abismo,深渊裂隙
+UI_VILLAGE_TITLE,ADVENTURER VILLAGE MAP,КАРТА ДЕРЕВНИ АВАНТЮРИСТОВ,MAPA DEL PUEBLO DE AVENTUREROS,冒险者村庄地图
+UI_ENTER_DUNGEON,ENTER DUNGEON,В ПОХОД,ENTRAR EN LA MAZMORRA,进入地牢
+UI_DUNGEON_ENTRANCE,Dungeon Entrance,Вход в подземелье,Entrada a la mazmorra,地牢入口
+UI_STAGE_LEVEL,Stage %d of 3,Стадия %d из 3,Etapa %d de 3,阶段 %d / 3
+UI_RESTORE_BUTTON,Upgrade (%d gold),Улучшить (%d золота),Mejorar (%d de oro),升级（%d 金币）
+UI_RESTORED_MAX,Fully Restored,Восстановлено полностью,Restaurado por completo,已完全修复
+UI_PREREQ_REQUIRED,Requires: %s (Stage %d),Требуется: %s (Стадия %d),Requiere: %s (Etapa %d),需要：%s（阶段 %d）
+UI_RESTORE_CONFIRM_TITLE,CONFIRM UPGRADE,ПОДТВЕРЖДЕНИЕ УЛУЧШЕНИЯ,CONFIRMAR MEJORA,确认升级
+UI_RESTORE_CONFIRM_MSG,Restore %s to stage %d for %d gold?,Восстановить «%s» до стадии %d за %d золота?,¿Restaurar %s a la etapa %d por %d de oro?,将 %s 修复至阶段 %d，花费 %d 金币？
+UI_RESTORE_SUCCESS,Building successfully upgraded!,Здание успешно улучшено!,¡Edificio mejorado!,建筑升级成功！
+UI_RESTORE_FAIL,Building upgrade failed,Ошибка улучшения здания,No se pudo mejorar el edificio,建筑升级失败
+UI_SAVE_FAILED,Could not save changes. Please try again.,Не удалось сохранить изменения. Повторите действие.,No se pudieron guardar los cambios. Inténtalo de nuevo.,无法保存更改，请重试。
+UI_RESTORE_STALE,This offer has changed. Open confirmation again.,Предложение устарело. Откройте подтверждение снова.,La oferta ha cambiado. Abre la confirmación de nuevo.,此方案已变更，请重新打开确认窗口。
+UI_CURRENT_STATE,Current state:,Текущее состояние:,Estado actual:,当前状态：
+UI_NEXT_STAGE,Next stage:,Следующее улучшение:,Próxima etapa:,下一阶段：
+UI_STAGE_COST,Upgrade cost: %d gold,Стоимость улучшения: %d золота,Coste de mejora: %d de oro,升级费用：%d 金币
+UI_STORIES,Stories,Истории,Historias,故事
+UI_CHRONICLE,Chronicle,Летопись,Crónica,编年史
+UI_COSMETICS,Appearance,Оформление,Apariencia,外观
+UI_UNAVAILABLE,Unavailable,Недоступно,No disponible,不可用
+UI_NOT_ENOUGH_GOLD,Not enough gold (%d),Недостаточно золота (%d),Oro insuficiente (%d),金币不足（%d）
+UI_TEXT_SCALE,Text scale,Масштаб текста,Tamaño del texto,文字大小
+UI_ROOM_ANNOUNCE,ROOM %d / %d,КОМНАТА %d / %d,SALA %d / %d,房间 %d / %d
+UI_BOSS_ANNOUNCE,FLOOR %d BOSS GATE,ВРАТА БОССА ЭТАЖА %d,PUERTA DEL JEFE DEL PISO %d,第 %d 层首领之门
+VILLAGE_SQUARE_STAGE_0,Rubble and a broken signpost,"Завалы, сломанный указатель",Escombros y un poste roto,碎石与损坏的路牌
+VILLAGE_SQUARE_STAGE_1,Cleared paths and signposts,Расчищенная дорожка и указатели,Caminos despejados y señales,清理过的道路与路牌
+VILLAGE_SQUARE_STAGE_2,"A well, lanterns and villagers","Колодец, фонари и жители","Un pozo, faroles y habitantes",水井、灯笼与村民
+VILLAGE_SQUARE_STAGE_3,Restored village centre and expedition memorial,Восстановленный центр и памятник походам,Centro restaurado y monumento a las expediciones,修复的村庄中心与探险纪念碑
+VILLAGE_HOUSES_STAGE_0,Three damaged house fronts,Три повреждённых фасада,Tres fachadas dañadas,三座受损的房屋正面
+VILLAGE_HOUSES_STAGE_1,One inhabited house; story 1,"Один заселённый дом, история 1",Una casa habitada; historia 1,一座有人居住的房屋；故事1
+VILLAGE_HOUSES_STAGE_2,Restored neighbourhood; story 2,"Восстановленный квартал, история 2",Barrio restaurado; historia 2,修复的街区；故事2
+VILLAGE_HOUSES_STAGE_3,All houses restored; story 3,"Все дома восстановлены, история 3",Todas las casas restauradas; historia 3,所有房屋已修复；故事3
+VILLAGE_CHRONICLER_STAGE_0,Closed house; wet pages at the door,"Закрытый дом, мокрые листы у порога",Casa cerrada; páginas mojadas en la puerta,紧闭的房屋；门前潮湿的书页
+VILLAGE_CHRONICLER_STAGE_1,"Desk, book and detailed journal","Стол, книга и подробный журнал","Escritorio, libro y diario detallado",书桌、书籍与详细日志
+VILLAGE_CHRONICLER_STAGE_2,Shelves and expedition comparison table,Шкафы и стол сравнения походов,Estantes y mesa para comparar expediciones,书架与探险对比桌
+VILLAGE_CHRONICLER_STAGE_3,Wall of dungeon memorial records,Стена памятных записей о подземельях,Muro de recuerdos de las mazmorras,地牢探险纪念墙
+VILLAGE_MARKETPLACE_STAGE_0,Empty stalls,Пустые прилавки,Puestos vacíos,空荡的摊位
+VILLAGE_MARKETPLACE_STAGE_1,Hero appearance stall,Лавка с оформлением героя,Puesto de apariencia del héroe,英雄外观摊位
+VILLAGE_MARKETPLACE_STAGE_2,Card and dice display,Стенд карт и кубиков,Expositor de cartas y dados,卡牌与骰子展台
+VILLAGE_MARKETPLACE_STAGE_3,Village appearance stall,Прилавок оформления деревни,Puesto de apariencia del pueblo,村庄外观摊位
+VILLAGE_FORGE_STAGE_0,Ruined furnace,Разрушенный горн,Horno en ruinas,损毁的熔炉
+VILLAGE_FORGE_STAGE_1,Working furnace under a canopy,Рабочий горн под навесом,Horno funcional bajo un toldo,棚下可用的熔炉
+VILLAGE_FORGE_STAGE_2,Repaired building and workbench,Отремонтированное здание и верстак,Edificio reparado y banco de trabajo,修好的建筑与工作台
+VILLAGE_FORGE_STAGE_3,Restored workshop and sign,Восстановленная мастерская и вывеска,Taller restaurado con letrero,修复的作坊与招牌
+VILLAGE_ALCHEMIST_STAGE_0,Empty damaged house,Пустой повреждённый дом,Casa vacía y dañada,空置的破损房屋
+VILLAGE_ALCHEMIST_STAGE_1,Herbalist table and simple bottles,Стол травника и простые флаконы,Mesa de herborista y frascos sencillos,草药师桌与简易药瓶
+VILLAGE_ALCHEMIST_STAGE_2,Laboratory bench and shelves,Лабораторный стол и полки,Mesa de laboratorio y estantes,实验台与置物架
+VILLAGE_ALCHEMIST_STAGE_3,Fully restored laboratory,Полностью восстановленная лаборатория,Laboratorio totalmente restaurado,完全修复的实验室
+UI_WALLET_AMOUNT,%d gold,%d золота,%d de oro,%d 金币
+UI_PRICE_GOLD,%d gold,%d золота,%d de oro,%d 金币
+UI_RETURN_VILLAGE,Return to Village,Вернуться в деревню,Volver al pueblo,返回村庄
+UI_MAIN_MENU,Main menu,Главное меню,Menú principal,主菜单
+UI_RHYTHM_DEFEAT,Defeated: -%d HP. The same doors await.,Поражение: -%d HP. Те же двери.,Derrota: -%d HP. Te esperan las mismas puertas.,战败：-%d HP。仍需面对同样的门。
+UI_MENU_SUBTITLE,Cards · Rhythm battles · Dungeons,Карты · Ритм-бои · Подземелья,Cartas · Combates rítmicos · Mazmorras,卡牌 · 节奏战斗 · 地牢
+UI_MENU_CONTINUE,Continue expedition,Продолжить поход,Continuar expedición,继续探险
+UI_MENU_NEW_GAME,New expedition,Новый поход,Nueva expedición,新的探险
+UI_MENU_VILLAGE,Village,Деревня,Pueblo,村庄
+UI_MENU_QUIT,Quit game,Выйти из игры,Salir del juego,退出游戏
+UI_MENU_WELCOME,Gather your equipment and enter the dungeon.,Соберите снаряжение и спуститесь в подземелье.,Reúne tu equipo y adéntrate en la mazmorra.,带好装备，进入地牢。
+UI_MENU_ACTIVE_RUN,Finish the current endless expedition at a campfire first.,Завершите текущий бесконечный поход у костра.,Termina primero la expedición infinita en una hoguera.,请先在营火旁结束当前的无尽探险。
+UI_MENU_WALLET,Village gold: %d,Золото деревни: %d,Oro del pueblo: %d,村庄金币：%d
+UI_MENU_RUN_SUMMARY,Endless expedition · Floor %d · Room %d,Бесконечный поход · Этаж %d · Комната %d,Expedición infinita · Piso %d · Sala %d,无尽探险 · 第 %d 层 · 房间 %d
+UI_MENU_CONTROLS,TAB / ↑↓ · SELECT   ENTER · OK   ESC · BACK,TAB / ↑↓ · ВЫБОР   ENTER · OK   ESC · НАЗАД,TAB / ↑↓ · ELEGIR   ENTER · ACEPTAR   ESC · VOLVER,TAB / ↑↓ · 选择   ENTER · 确定   ESC · 返回
+UI_COMBAT_STAT_COMPARISON,Hero: ATK %d / DEF %d — Enemy: ATK %d / DEF %d,Герой: АТК %d / ЗАЩ %d — Враг: АТК %d / ЗАЩ %d,Héroe: ATQ %d / DEF %d — Enemigo: ATQ %d / DEF %d,英雄：攻击 %d / 防御 %d — 敌人：攻击 %d / 防御 %d
+UI_HERO_COMBAT_STATS,ATK: %d / DEF: %d,АТК: %d / ЗАЩ: %d,ATQ: %d / DEF: %d,攻击：%d / 防御：%d
+UI_RHYTHM_TARGET_RISK,Hit %d%% to win. Defeat: -%d HP and the same doors.,Нужно %d%% попаданий. Поражение: -%d HP и те же двери.,Acierta un %d%% para ganar. Derrota: -%d HP y las mismas puertas.,命中率达到 %d%% 即可获胜。战败：-%d HP，仍需面对同样的门。
+UI_RHYTHM_STAT_DEFICITS,Attack deficit: %d • defense deficit: %d,Нехватка атаки: %d • защиты: %d,Déficit de ataque: %d • de defensa: %d,攻击差距：%d • 防御差距：%d
+UI_RHYTHM_BOSS_BONUS,Boss bonus: +%d base BPM and a tighter timing window,Бонус босса: +%d к базовому BPM и более строгий допуск,Ventaja del jefe: +%d BPM de base y menor margen de acierto,首领加成：基础节拍 +%d BPM，判定窗口更严格
+UI_WEAPON_ATTACK,+%d ATTACK,+%d АТАКА,+%d ATAQUE,+%d 攻击
+UI_ARMOR_DEFENSE,+%d DEFENSE (-%d damage),+%d ЗАЩИТА (-%d урон),+%d DEFENSA (-%d daño),+%d 防御（-%d 伤害）
+UI_WEAPON_ATTACK_UPGRADED,+%d attack (Forge level %d),+%d атака (Кузница ур. %d),+%d ataque (Forja nivel %d),+%d 攻击（铁匠铺等级 %d）
+UI_ATTACK_BUFF,+%d attack for this battle,+%d атака на текущий бой,+%d ataque en este combate,本次战斗攻击 +%d
+UI_RHYTHM_SCORE_TARGET,Hits %d / %d • Target %d%%,Попадания %d / %d • Цель %d%%,Aciertos %d / %d • Objetivo %d%%,命中 %d / %d • 目标 %d%%
+UI_RHYTHM_RESULT_TARGET,Accuracy %d%% / target %d%% — %s,Точность %d%% / цель %d%% — %s,Precisión %d%% / objetivo %d%% — %s,准确率 %d%% / 目标 %d%% — %s
+UI_RHYTHM_WIN,VICTORY WITHOUT DAMAGE,ПОБЕДА БЕЗ УРОНА,VICTORIA SIN DAÑO,无伤获胜
+UI_RHYTHM_LOSS,DEFEAT,ПОРАЖЕНИЕ,DERROTA,战败
+UI_RHYTHM_PHRASE_CHANGES,Phrases change during the fight.,Серии чередуются в течение боя.,Las secuencias cambian durante el combate.,战斗中会交替出现不同节奏。
+UI_SETTINGS,Settings,Настройки,Ajustes,设置
+UI_SETTINGS_CONTROLS,Controls,Управление,Controles,操作
+UI_SETTINGS_DISPLAY,Display,Экран,Pantalla,显示
+UI_SETTINGS_AUDIO,Audio,Звук,Sonido,声音
+UI_SETTINGS_BIND_HELP,Select an action and press a new key. Shift / Ctrl / Alt combinations are supported.,Выберите действие и нажмите новую клавишу. Можно использовать сочетания с Shift / Ctrl / Alt.,Elige una acción y pulsa una tecla nueva. Se admiten combinaciones con Shift / Ctrl / Alt.,选择操作后按新按键。支持 Shift / Ctrl / Alt 组合键。
+UI_SETTINGS_RESET_KEYS,Restore default controls,Восстановить клавиши по умолчанию,Restaurar controles,恢复默认按键
+UI_SETTINGS_PRESS_KEY,Press a key…,Нажмите клавишу…,Pulsa una tecla…,请按一个键…
+UI_SETTINGS_CAPTURE_HELP,Press a new key. Esc cancels. To bind Shift / Ctrl / Alt alone press and release it.,Нажмите новую клавишу. Esc — отменить. Для отдельного Shift / Ctrl / Alt нажмите и отпустите его.,"Pulsa una tecla nueva. Esc cancela. Para asignar solo Shift / Ctrl / Alt, púlsalo y suéltalo.",按新按键，Esc 取消。如需单独绑定 Shift / Ctrl / Alt，请按下后松开。
+UI_SETTINGS_KEY_CONFLICT,Key already assigned: %s. Choose another key.,Клавиша уже назначена: %s. Выберите другую.,Tecla ya asignada: %s. Elige otra.,该按键已绑定：%s。请选择其他按键。
+UI_SETTINGS_RESOLUTION,Window resolution,Разрешение окна,Resolución de ventana,窗口分辨率
+UI_SETTINGS_RESOLUTION_HELP,Choose a window size and select Apply. Sizes are limited to the current monitor.,Выберите размер окна и нажмите «Применить». Доступны размеры для текущего монитора.,Elige un tamaño y pulsa Aplicar. Las opciones dependen del monitor actual.,选择窗口大小后点击应用。可选大小取决于当前显示器。
+UI_SETTINGS_APPLY_RESOLUTION,Apply resolution,Применить разрешение,Aplicar resolución,应用分辨率
+UI_SETTINGS_MUTE,Mute all audio,Выключить весь звук,Silenciar todo el sonido,关闭所有声音
+UI_SETTINGS_AUDIO_HELP,Changes are audible immediately. Rhythm volume controls the metronome and hit sounds.,Изменения слышны сразу. Громкость ритма управляет метрономом и звуками попаданий.,Los cambios se oyen al instante. El volumen de ritmo controla el metrónomo y los aciertos.,更改立即生效。节奏音量控制节拍器和命中音效。
+UI_SETTINGS_AUTO_SAVE,Settings save automatically. Apply a new resolution with the Apply button.,Настройки сохраняются автоматически. Изменение разрешения — кнопкой «Применить».,Los ajustes se guardan automáticamente. Usa Aplicar para cambiar la resolución.,设置自动保存。分辨率需点击应用后生效。
+UI_SETTINGS_SAVED,Settings saved.,Настройки сохранены.,Ajustes guardados.,设置已保存。
+UI_SETTINGS_SAVE_FAILED,Could not save settings. Check access to the game data folder.,Не удалось сохранить настройки. Проверьте доступ к папке данных игры.,No se pudieron guardar los ajustes. Comprueba el acceso a la carpeta de datos del juego.,无法保存设置，请检查游戏数据文件夹的访问权限。
+UI_VOLUME_MASTER,Master volume,Общая громкость,Volumen general,主音量
+UI_VOLUME_EFFECTS,Sound effects,Звуковые эффекты,Efectos de sonido,音效
+UI_VOLUME_RHYTHM,Rhythm and hits,Ритм и попадания,Ritmo y aciertos,节奏与命中音效
+UI_CONTROL_UP,Select up,Выбор вверх,Seleccionar arriba,向上选择
+UI_CONTROL_DOWN,Select down,Выбор вниз,Seleccionar abajo,向下选择
+UI_CONTROL_LEFT,Select left,Выбор влево,Seleccionar izquierda,向左选择
+UI_CONTROL_RIGHT,Select right,Выбор вправо,Seleccionar derecha,向右选择
+UI_CONTROL_ACCEPT,Confirm / use card,Подтвердить / использовать карту,Confirmar / usar carta,确认 / 使用卡牌
+UI_CONTROL_CANCEL,Back / close,Назад / закрыть,Volver / cerrar,返回 / 关闭
+UI_CONTROL_NEXT,Next element,Следующий элемент,Elemento siguiente,下一个选项
+UI_CONTROL_PREVIOUS,Previous element,Предыдущий элемент,Elemento anterior,上一个选项
+UI_CONTROL_PAGE_UP,Scroll page up,Прокрутить вверх,Subir página,向上翻页
+UI_CONTROL_PAGE_DOWN,Scroll page down,Прокрутить вниз,Bajar página,向下翻页
+UI_CONTROL_ATTACK,Rhythm combat: attack,Ритм-бой: удар,Combate rítmico: atacar,节奏战斗：攻击
+UI_CONTROL_GUARD,Rhythm combat: guard,Ритм-бой: блок,Combate rítmico: bloquear,节奏战斗：格挡
+UI_KEY_SPACE,Space,Пробел,Espacio,空格
+UI_MENU_BINDINGS,%s — select · %s — OK · %s — back,%s — выбор · %s — OK · %s — назад,%s — elegir · %s — aceptar · %s — volver,%s — 选择 · %s — 确定 · %s — 返回
+UI_CARDS_KEYBOARD_HELP,Cards below: %s / %s to select; %s to equip or use.,Карты внизу: %s / %s — выбор; %s — экипировать или использовать.,Cartas inferiores: %s / %s para elegir; %s para equipar o usar.,下方卡牌：%s / %s 选择；%s 装备或使用。
+UI_MERCHANT_KEYBOARD_HELP,%s to select a card; %s to sell; %s to close.,%s — выбрать карту; %s — продать; %s — закрыть.,%s para elegir carta; %s para vender; %s para cerrar.,%s 选择卡牌；%s 出售；%s 关闭。
+UI_RHYTHM_KEYS,Diamond — ATTACK: %s · Shield — GUARD: %s,Ромб — УДАР: %s · Щит — БЛОК: %s,Rombo — ATAQUE: %s · Escudo — BLOQUEO: %s,菱形 — 攻击：%s · 盾牌 — 格挡：%s
+UI_RHYTHM_TIMING_HELP,Press once as the note crosses the green line.,Нажимайте один раз в момент пересечения нотой зелёной линии.,Pulsa una vez cuando la nota cruce la línea verde.,音符经过绿线时按一次。
+UI_RHYTHM_ATTACK_BUTTON,ATTACK · %s / A,УДАР · %s / A,ATAQUE · %s / A,攻击 · %s / A
+UI_RHYTHM_GUARD_BUTTON,GUARD · %s / B,БЛОК · %s / B,BLOQUEO · %s / B,格挡 · %s / B
+UI_RHYTHM_ATTACK_HELP,Diamond: %s / gamepad A or the attack button.,Ромб: %s / A геймпада или кнопка удара на экране.,Rombo: %s / A del mando o el botón de ataque.,菱形：%s / 手柄 A 或攻击按钮。
+UI_RHYTHM_GUARD_HELP,Shield: %s / gamepad B / right mouse button or the guard button.,Щит: %s / B геймпада / правая кнопка мыши или кнопка блока на экране.,Escudo: %s / B del mando / clic derecho o el botón de bloqueo.,盾牌：%s / 手柄 B / 鼠标右键或格挡按钮。
+UI_CONTROL_INVENTORY,Open / close inventory,Открыть / закрыть инвентарь,Abrir / cerrar inventario,打开 / 关闭背包
+UI_INVENTORY_TITLE,Inventory,Инвентарь,Inventario,背包
+UI_INVENTORY_BUTTON,Inventory [%s],Инвентарь [%s],Inventario [%s],背包 [%s]
+UI_INVENTORY_HELP,Equip found gear immediately. Replaced gear returns to the backpack. Chest potions and scrolls unlock after the boss.,Найденное снаряжение можно надеть сразу. Заменённый предмет вернётся в рюкзак. Зелья и свитки из сундука доступны после босса.,Equipa el botín al instante. El equipo sustituido vuelve a la mochila. Las pociones y los pergaminos del cofre se desbloquean tras el jefe.,可立即装备找到的物品。替换下来的装备会放回背包。宝箱中的药水和卷轴在击败首领后解锁。
+UI_INVENTORY_BACKPACK,Backpack,Рюкзак,Mochila,随身物品
+UI_INVENTORY_FLOOR_CHEST,Current floor loot,Добыча текущего этажа,Botín del piso actual,本层战利品
+UI_INVENTORY_EMPTY,No items yet.,Пока нет предметов.,Aún no hay objetos.,暂无物品。
+UI_INVENTORY_EMPTY_SLOT,Empty slot,Пустой слот,Ranura vacía,空栏位
+UI_INVENTORY_EQUIP,Equip,Надеть,Equipar,装备
+UI_INVENTORY_UNEQUIP,Unequip,Снять,Desequipar,卸下
+UI_INVENTORY_USE,Use,Использовать,Usar,使用
+UI_INVENTORY_LOCKED,After the boss,После босса,Tras el jefe,击败首领后解锁
+UI_INVENTORY_DONE,Item applied: %s,Предмет применён: %s,Objeto aplicado: %s,已使用物品：%s
+UI_INVENTORY_UNEQUIPPED,Item unequipped and returned to the backpack.,Предмет снят и возвращён в рюкзак.,Objeto desequipado y devuelto a la mochila.,已卸下物品并放回背包。
+UI_INVENTORY_FAILED,Could not apply the item.,Не удалось применить предмет.,No se pudo aplicar el objeto.,无法使用该物品。
+Rusty Sword,Rusty Sword,Ржавый меч,Espada oxidada,锈剑
+Ржавый меч,Rusty Sword,Ржавый меч,Espada oxidada,锈剑
++2 permanent hero power,+2 permanent hero power,+2 к Боевой мощи героя (постоянно),+2 de poder permanente del héroe,英雄永久战力 +2
++2 к Боевой мощи героя (постоянно),+2 permanent hero power,+2 к Боевой мощи героя (постоянно),+2 de poder permanente del héroe,英雄永久战力 +2
+Iron Blade,Iron Blade,Железный клинок,Hoja de hierro,铁刃
+Железный клинок,Iron Blade,Железный клинок,Hoja de hierro,铁刃
++4 permanent hero power,+4 permanent hero power,+4 к Боевой мощи героя (постоянно),+4 de poder permanente del héroe,英雄永久战力 +4
++4 к Боевой мощи героя (постоянно),+4 permanent hero power,+4 к Боевой мощи героя (постоянно),+4 de poder permanente del héroe,英雄永久战力 +4
+Radiant Broadsword,Radiant Broadsword,Сияющий палаш,Espadón radiante,辉光阔剑
+Сияющий палаш,Radiant Broadsword,Сияющий палаш,Espadón radiante,辉光阔剑
++7 permanent hero power,+7 permanent hero power,+7 к Боевой мощи героя (постоянно),+7 de poder permanente del héroe,英雄永久战力 +7
++7 к Боевой мощи героя (постоянно),+7 permanent hero power,+7 к Боевой мощи героя (постоянно),+7 de poder permanente del héroe,英雄永久战力 +7
+Leather Armor,Leather Armor,Кожаный доспех,Armadura de cuero,皮甲
+Кожаный доспех,Leather Armor,Кожаный доспех,Armadura de cuero,皮甲
+"+2 power, -1 damage on failure","+2 power, -1 damage on failure","+2 к Боевой мощи, -1 урона при неудаче","+2 de poder, -1 de daño al fallar",战力 +2，失败时伤害 -1
+"+2 к Боевой мощи, -1 урона при неудаче","+2 power, -1 damage on failure","+2 к Боевой мощи, -1 урона при неудаче","+2 de poder, -1 de daño al fallar",战力 +2，失败时伤害 -1
+Spiked Shield,Spiked Shield,Шипастый щит,Escudo con púas,尖刺盾牌
+Шипастый щит,Spiked Shield,Шипастый щит,Escudo con púas,尖刺盾牌
+"+4 power, -2 damage on failure","+4 power, -2 damage on failure","+4 к Боевой мощи, -2 урона при неудаче","+4 de poder, -2 de daño al fallar",战力 +4，失败时伤害 -2
+"+4 к Боевой мощи, -2 урона при неудаче","+4 power, -2 damage on failure","+4 к Боевой мощи, -2 урона при неудаче","+4 de poder, -2 de daño al fallar",战力 +4，失败时伤害 -2
+Royal Plate,Royal Plate,Королевские латы,Armadura real,皇家板甲
+Королевские латы,Royal Plate,Королевские латы,Armadura real,皇家板甲
+"+7 power, -4 damage on failure","+7 power, -4 damage on failure","+7 к Боевой мощи, -4 урона при неудаче","+7 de poder, -4 de daño al fallar",战力 +7，失败时伤害 -4
+"+7 к Боевой мощи, -4 урона при неудаче","+7 power, -4 damage on failure","+7 к Боевой мощи, -4 урона при неудаче","+7 de poder, -4 de daño al fallar",战力 +7，失败时伤害 -4
+Minor Health Potion,Minor Health Potion,Малое зелье здоровья,Poción de salud menor,小型生命药水
+Малое зелье здоровья,Minor Health Potion,Малое зелье здоровья,Poción de salud menor,小型生命药水
+Restores +15 HP (consumable),Restores +15 HP (consumable),Восстанавливает +15 HP (расходник),Restaura +15 HP (consumible),恢复 +15 HP（消耗品）
+Восстанавливает +15 HP (расходник),Restores +15 HP (consumable),Восстанавливает +15 HP (расходник),Restaura +15 HP (consumible),恢复 +15 HP（消耗品）
+Greater Health Potion,Greater Health Potion,Большое зелье здоровья,Poción de salud mayor,大型生命药水
+Большое зелье здоровья,Greater Health Potion,Большое зелье здоровья,Poción de salud mayor,大型生命药水
+Restores +35 HP (consumable),Restores +35 HP (consumable),Восстанавливает +35 HP (расходник),Restaura +35 HP (consumible),恢复 +35 HP（消耗品）
+Восстанавливает +35 HP (расходник),Restores +35 HP (consumable),Восстанавливает +35 HP (расходник),Restaura +35 HP (consumible),恢复 +35 HP（消耗品）
+Scroll of Might,Scroll of Might,Свиток ярости,Pergamino de poder,力量卷轴
+Свиток ярости,Scroll of Might,Свиток ярости,Pergamino de poder,力量卷轴
++3 power for this battle,+3 power for this battle,+3 к Мощи на текущий бой,+3 de poder en este combate,本次战斗战力 +3
++3 к Мощи на текущий бой,+3 power for this battle,+3 к Мощи на текущий бой,+3 de poder en este combate,本次战斗战力 +3
+Arcane Scroll,Arcane Scroll,Тайный свиток,Pergamino arcano,奥术卷轴
+Тайный свиток,Arcane Scroll,Тайный свиток,Pergamino arcano,奥术卷轴
++6 power for this battle,+6 power for this battle,+6 к Мощи на текущий бой,+6 de poder en este combate,本次战斗战力 +6
++6 к Мощи на текущий бой,+6 power for this battle,+6 к Мощи на текущий бой,+6 de poder en este combate,本次战斗战力 +6
+Lucky Dice Amulet,Lucky Dice Amulet,Амулет удачи,Amuleto de dados de la suerte,幸运骰子护符
+Амулет удачи,Lucky Dice Amulet,Амулет удачи,Amuleto de dados de la suerte,幸运骰子护符
++2 to escape and saving rolls,+2 to escape and saving rolls,+2 к результату броска кубиков для побега/спасения,+2 a las tiradas de huida y salvación,逃跑和豁免掷骰结果 +2
++2 к результату броска кубиков для побега/спасения,+2 to escape and saving rolls,+2 к результату броска кубиков для побега/спасения,+2 a las tiradas de huida y salvación,逃跑和豁免掷骰结果 +2
+Ring of Fortune,Ring of Fortune,Кольцо фортуны,Anillo de la fortuna,命运之戒
+Кольцо фортуны,Ring of Fortune,Кольцо фортуны,Anillo de la fortuna,命运之戒
++1 extra free reroll,+1 extra free reroll,+1 дополнительный бесплатный переброс кубиков,+1 repetición gratuita de tirada,额外免费重掷 +1
++1 дополнительный бесплатный переброс кубиков,+1 extra free reroll,+1 дополнительный бесплатный переброс кубиков,+1 repetición gratuita de tirada,额外免费重掷 +1
+Herbal Health Potion,Herbal Health Potion,Травяное зелье,Poción de hierbas,草药药水
+Травяное зелье,Herbal Health Potion,Травяное зелье,Poción de hierbas,草药药水
+Restores +25 HP (consumable),Restores +25 HP (consumable),Восстанавливает +25 HP (расходник),Restaura +25 HP (consumible),恢复 +25 HP（消耗品）
+Восстанавливает +25 HP (расходник),Restores +25 HP (consumable),Восстанавливает +25 HP (расходник),Restaura +25 HP (consumible),恢复 +25 HP（消耗品）
+Scroll of Resolve,Scroll of Resolve,Свиток решимости,Pergamino de determinación,决心卷轴
+Свиток решимости,Scroll of Resolve,Свиток решимости,Pergamino de determinación,决心卷轴
++4 power for this battle,+4 power for this battle,+4 к Мощи на текущий бой,+4 de poder en este combate,本次战斗战力 +4
++4 к Мощи на текущий бой,+4 power for this battle,+4 к Мощи на текущий бой,+4 de poder en este combate,本次战斗战力 +4
+Restoration Potion,Restoration Potion,Зелье восстановления,Poción restauradora,恢复药水
+Зелье восстановления,Restoration Potion,Зелье восстановления,Poción restauradora,恢复药水
+Restores +50 HP (consumable),Restores +50 HP (consumable),Восстанавливает +50 HP (расходник),Restaura +50 HP (consumible),恢复 +50 HP（消耗品）
+Восстанавливает +50 HP (расходник),Restores +50 HP (consumable),Восстанавливает +50 HP (расходник),Restaura +50 HP (consumible),恢复 +50 HP（消耗品）
+Scroll of Valor,Scroll of Valor,Свиток доблести,Pergamino de valor,勇气卷轴
+Свиток доблести,Scroll of Valor,Свиток доблести,Pergamino de valor,勇气卷轴
++9 power for this battle,+9 power for this battle,+9 к Мощи на текущий бой,+9 de poder en este combate,本次战斗战力 +9
++9 к Мощи на текущий бой,+9 power for this battle,+9 к Мощи на текущий бой,+9 de poder en este combate,本次战斗战力 +9
+Vital Health Potion,Vital Health Potion,Зелье жизни,Poción de vitalidad,活力药水
+Зелье жизни,Vital Health Potion,Зелье жизни,Poción de vitalidad,活力药水
+Restores +75 HP (consumable),Restores +75 HP (consumable),Восстанавливает +75 HP (расходник),Restaura +75 HP (consumible),恢复 +75 HP（消耗品）
+Восстанавливает +75 HP (расходник),Restores +75 HP (consumable),Восстанавливает +75 HP (расходник),Restaura +75 HP (consumible),恢复 +75 HP（消耗品）
+Scroll of Dominion,Scroll of Dominion,Свиток превосходства,Pergamino de dominio,统御卷轴
+Свиток превосходства,Scroll of Dominion,Свиток превосходства,Pergamino de dominio,统御卷轴
++12 power for this battle,+12 power for this battle,+12 к Мощи на текущий бой,+12 de poder en este combate,本次战斗战力 +12
++12 к Мощи на текущий бой,+12 power for this battle,+12 к Мощи на текущий бой,+12 de poder en este combate,本次战斗战力 +12
+Sword,Sword,Меч,Espada,剑
+Меч,Sword,Меч,Espada,剑
++%d hero power (Forge level %d),+%d hero power (Forge level %d),+%d к Боевой мощи героя (Кузница ур. %d),+%d de poder del héroe (Forja nivel %d),英雄战力 +%d（铁匠铺等级 %d）
++%d к Боевой мощи героя (Кузница ур. %d),+%d hero power (Forge level %d),+%d к Боевой мощи героя (Кузница ур. %d),+%d de poder del héroe (Forja nivel %d),英雄战力 +%d（铁匠铺等级 %d）
+Skeleton Warrior,Skeleton Warrior,Скелет-воин,Guerrero esqueleto,骷髅战士
+Скелет-воин,Skeleton Warrior,Скелет-воин,Guerrero esqueleto,骷髅战士
+Keeper of the Crypts,Keeper of the Crypts,Хранитель катакомб,Guardián de las criptas,墓穴守卫
+Хранитель катакомб,Keeper of the Crypts,Хранитель катакомб,Guardián de las criptas,墓穴守卫
+Ancient bones grip a serrated sword.,Ancient bones grip a serrated sword.,Древние кости сжимают зазубренный меч.,Unos huesos antiguos empuñan una espada dentada.,古老的白骨紧握着锯齿长剑。
+Древние кости сжимают зазубренный меч.,Ancient bones grip a serrated sword.,Древние кости сжимают зазубренный меч.,Unos huesos antiguos empuñan una espada dentada.,古老的白骨紧握着锯齿长剑。
+Plague Ghoul,Plague Ghoul,Чумной упырь,Necrófago de la peste,瘟疫食尸鬼
+Чумной упырь,Plague Ghoul,Чумной упырь,Necrófago de la peste,瘟疫食尸鬼
+Dweller in Darkness,Dweller in Darkness,Обитатель тьмы,Morador de las tinieblas,暗影住民
+Обитатель тьмы,Dweller in Darkness,Обитатель тьмы,Morador de las tinieblas,暗影住民
+Its breath poisons the air of the crypt.,Its breath poisons the air of the crypt.,Его дыхание отравляет воздух склепа.,Su aliento envenena el aire de la cripta.,它的呼吸让墓穴中弥漫着毒气。
+Его дыхание отравляет воздух склепа.,Its breath poisons the air of the crypt.,Его дыхание отравляет воздух склепа.,Su aliento envenena el aire de la cripta.,它的呼吸让墓穴中弥漫着毒气。
+Fallen Knight,Fallen Knight,Падший рыцарь,Caballero caído,堕落骑士
+Падший рыцарь,Fallen Knight,Падший рыцарь,Caballero caído,堕落骑士
+Cursed Guardian,Cursed Guardian,Проклятый страж,Guardián maldito,诅咒守卫
+Проклятый страж,Cursed Guardian,Проклятый страж,Guardián maldito,诅咒守卫
+Rusted plate guards an oath of eternal service.,Rusted plate guards an oath of eternal service.,Ржавые латы хранят клятву вечной службы.,La armadura oxidada guarda un juramento de servicio eterno.,锈蚀的铠甲守护着永世效忠的誓言。
+Ржавые латы хранят клятву вечной службы.,Rusted plate guards an oath of eternal service.,Ржавые латы хранят клятву вечной службы.,La armadura oxidada guarda un juramento de servicio eterno.,锈蚀的铠甲守护着永世效忠的誓言。
+Abyss Demon,Abyss Demon,Демон Бездны,Demonio del abismo,深渊恶魔
+Демон Бездны,Abyss Demon,Демон Бездны,Demonio del abismo,深渊恶魔
+Winged Hunter,Winged Hunter,Крылатый охотник,Cazador alado,飞翼猎手
+Крылатый охотник,Winged Hunter,Крылатый охотник,Cazador alado,飞翼猎手
+A horned hunter emerges from the dark with a searing blade.,A horned hunter emerges from the dark with a searing blade.,Из темноты выступает рогатый охотник с раскалённым клинком.,Un cazador cornudo surge de la oscuridad con una hoja candente.,一名长角的猎手手持灼热利刃，从黑暗中现身。
+Из темноты выступает рогатый охотник с раскалённым клинком.,A horned hunter emerges from the dark with a searing blade.,Из темноты выступает рогатый охотник с раскалённым клинком.,Un cazador cornudo surge de la oscuridad con una hoja candente.,一名长角的猎手手持灼热利刃，从黑暗中现身。
+Cave Spider,Cave Spider,Пещерный паук,Araña cavernaria,洞穴蜘蛛
+Пещерный паук,Cave Spider,Пещерный паук,Araña cavernaria,洞穴蜘蛛
+Dungeon Dweller,Dungeon Dweller,Обитатель подземелья,Morador de la mazmorra,地牢住民
+Обитатель подземелья,Dungeon Dweller,Обитатель подземелья,Morador de la mazmorra,地牢住民
+A cave spider emerges from the dark.,A cave spider emerges from the dark.,Из темноты появляется пещерный паук.,Una araña cavernaria surge de la oscuridad.,一只洞穴蜘蛛从黑暗中爬出。
+Из темноты появляется пещерный паук.,A cave spider emerges from the dark.,Из темноты появляется пещерный паук.,Una araña cavernaria surge de la oscuridad.,一只洞穴蜘蛛从黑暗中爬出。
+Dungeon Slime,Dungeon Slime,Подземный слизень,Baba de la mazmorra,地牢史莱姆
+Подземный слизень,Dungeon Slime,Подземный слизень,Baba de la mazmorra,地牢史莱姆
+A dungeon slime emerges from the dark.,A dungeon slime emerges from the dark.,Из темноты появляется подземный слизень.,Una baba de la mazmorra surge de la oscuridad.,一只地牢史莱姆从黑暗中出现。
+Из темноты появляется подземный слизень.,A dungeon slime emerges from the dark.,Из темноты появляется подземный слизень.,Una baba de la mazmorra surge de la oscuridad.,一只地牢史莱姆从黑暗中出现。
+Restless Ghost,Restless Ghost,Неприкаянный призрак,Fantasma errante,游荡幽灵
+Неприкаянный призрак,Restless Ghost,Неприкаянный призрак,Fantasma errante,游荡幽灵
+A restless ghost emerges from the dark.,A restless ghost emerges from the dark.,Из темноты появляется неприкаянный призрак.,Un fantasma errante surge de la oscuridad.,一个游荡幽灵从黑暗中现身。
+Из темноты появляется неприкаянный призрак.,A restless ghost emerges from the dark.,Из темноты появляется неприкаянный призрак.,Un fantasma errante surge de la oscuridad.,一个游荡幽灵从黑暗中现身。
+Wolfkin,Wolfkin,Волколюд,Hombre lobo,狼人
+Волколюд,Wolfkin,Волколюд,Hombre lobo,狼人
+A wolfkin emerges from the dark.,A wolfkin emerges from the dark.,Из темноты появляется волколюд.,Un hombre lobo surge de la oscuridad.,一个狼人从黑暗中现身。
+Из темноты появляется волколюд.,A wolfkin emerges from the dark.,Из темноты появляется волколюд.,Un hombre lobo surge de la oscuridad.,一个狼人从黑暗中现身。
+Goblin Raider,Goblin Raider,Гоблин-налётчик,Asaltante goblin,哥布林劫掠者
+Гоблин-налётчик,Goblin Raider,Гоблин-налётчик,Asaltante goblin,哥布林劫掠者
+A goblin raider emerges from the dark.,A goblin raider emerges from the dark.,Из темноты появляется гоблин-налётчик.,Un asaltante goblin surge de la oscuridad.,一名哥布林劫掠者从黑暗中现身。
+Из темноты появляется гоблин-налётчик.,A goblin raider emerges from the dark.,Из темноты появляется гоблин-налётчик.,Un asaltante goblin surge de la oscuridad.,一名哥布林劫掠者从黑暗中现身。
+Stone Golem,Stone Golem,Каменный голем,Gólem de piedra,岩石魔像
+Каменный голем,Stone Golem,Каменный голем,Gólem de piedra,岩石魔像
+A stone golem emerges from the dark.,A stone golem emerges from the dark.,Из темноты появляется каменный голем.,Un gólem de piedra surge de la oscuridad.,一个岩石魔像从黑暗中现身。
+Из темноты появляется каменный голем.,A stone golem emerges from the dark.,Из темноты появляется каменный голем.,Un gólem de piedra surge de la oscuridad.,一个岩石魔像从黑暗中现身。
+Bound Djinn,Bound Djinn,Скованный джинн,Genio encadenado,被缚精灵
+Скованный джинн,Bound Djinn,Скованный джинн,Genio encadenado,被缚精灵
+A bound djinn emerges from the dark.,A bound djinn emerges from the dark.,Из темноты появляется скованный джинн.,Un genio encadenado surge de la oscuridad.,一个被缚精灵从黑暗中现身。
+Из темноты появляется скованный джинн.,A bound djinn emerges from the dark.,Из темноты появляется скованный джинн.,Un genio encadenado surge de la oscuridad.,一个被缚精灵从黑暗中现身。
+Lich Lord Malgor,Lich Lord Malgor,Лорд-Лич Малгор,"Malgor, señor liche",巫妖领主玛尔戈
+Лорд-Лич Малгор,Lich Lord Malgor,Лорд-Лич Малгор,"Malgor, señor liche",巫妖领主玛尔戈
+Lord of the Necropolis,Lord of the Necropolis,Владыка некрополя,Señor de la necrópolis,亡者之城的领主
+Владыка некрополя,Lord of the Necropolis,Владыка некрополя,Señor de la necrópolis,亡者之城的领主
+An ancient necromancer who commands the souls of fallen adventurers.,An ancient necromancer who commands the souls of fallen adventurers.,"Древний некромант, повелевающий душами павших авантюристов.",Un antiguo nigromante que domina las almas de aventureros caídos.,一位操控着陨落冒险者灵魂的古老死灵法师。
+"Древний некромант, повелевающий душами павших авантюристов.",An ancient necromancer who commands the souls of fallen adventurers.,"Древний некромант, повелевающий душами павших авантюристов.",Un antiguo nigromante que domina las almas de aventureros caídos.,一位操控着陨落冒险者灵魂的古老死灵法师。
+Archdemon of the Abyss,Archdemon of the Abyss,Архидемон Бездны,Archidemonio del abismo,深渊大恶魔
+Архидемон Бездны,Archdemon of the Abyss,Архидемон Бездны,Archidemonio del abismo,深渊大恶魔
+Devourer of Souls,Devourer of Souls,Пожиратель душ,Devorador de almas,噬魂者
+Пожиратель душ,Devourer of Souls,Пожиратель душ,Devorador de almas,噬魂者
+The true terror of the dungeon's deepest levels.,The true terror of the dungeon's deepest levels.,Истинный ужас нижних ярусов подземелья.,El verdadero terror de los niveles más profundos de la mazmorra.,地牢最深处真正的恐怖。
+Истинный ужас нижних ярусов подземелья.,The true terror of the dungeon's deepest levels.,Истинный ужас нижних ярусов подземелья.,El verdadero terror de los niveles más profundos de la mazmorra.,地牢最深处真正的恐怖。
+Spike Trap,Spike Trap,Шиповая ловушка,Trampa de pinchos,尖刺陷阱
+Шиповая ловушка,Spike Trap,Шиповая ловушка,Trampa de pinchos,尖刺陷阱
+Hidden Mechanism,Hidden Mechanism,Скрытый механизм,Mecanismo oculto,隐藏机关
+Скрытый механизм,Hidden Mechanism,Скрытый механизм,Mecanismo oculto,隐藏机关
+A floor plate clicks beneath you. Sharp steel spikes burst from the ground!,A floor plate clicks beneath you. Sharp steel spikes burst from the ground!,"Плита под ногами щелкает, из пола вырываются острые стальные шипы!",¡Una losa chasquea bajo tus pies y afiladas púas de acero brotan del suelo!,脚下的石板发出咔嗒声，锋利的钢刺从地面猛然弹出！
+"Плита под ногами щелкает, из пола вырываются острые стальные шипы!",A floor plate clicks beneath you. Sharp steel spikes burst from the ground!,"Плита под ногами щелкает, из пола вырываются острые стальные шипы!",¡Una losa chasquea bajo tus pies y afiladas púas de acero brotan del suelo!,脚下的石板发出咔嗒声，锋利的钢刺从地面猛然弹出！
+Cursed Altar,Cursed Altar,Проклятый алтарь,Altar maldito,诅咒祭坛
+Проклятый алтарь,Cursed Altar,Проклятый алтарь,Altar maldito,诅咒祭坛
+Occult Whisper,Occult Whisper,Оккультный шепот,Susurro oculto,秘术低语
+Оккультный шепот,Occult Whisper,Оккультный шепот,Susurro oculto,秘术低语
+An ominous altar drains your life force and reduces your power by 1.,An ominous altar drains your life force and reduces your power by 1.,Зловещий алтарь вытягивает жизненную силу и ослабляет вашу мощь на 1.,Un altar siniestro drena tu fuerza vital y reduce tu poder en 1.,不祥的祭坛吸取着你的生命力，使你的战力降低1。
+Зловещий алтарь вытягивает жизненную силу и ослабляет вашу мощь на 1.,An ominous altar drains your life force and reduces your power by 1.,Зловещий алтарь вытягивает жизненную силу и ослабляет вашу мощь на 1.,Un altar siniestro drena tu fuerza vital y reduce tu poder en 1.,不祥的祭坛吸取着你的生命力，使你的战力降低1。
+Plague Mist,Plague Mist,Чумной туман,Niebla pestilente,瘟疫迷雾
+Чумной туман,Plague Mist,Чумной туман,Niebla pestilente,瘟疫迷雾
+Poisonous Fumes,Poisonous Fumes,Ядовитые испарения,Vapores venenosos,有毒烟雾
+Ядовитые испарения,Poisonous Fumes,Ядовитые испарения,Vapores venenosos,有毒烟雾
+"Caustic green smoke fills the room, burning your lungs!","Caustic green smoke fills the room, burning your lungs!","Зеленый едкий дым заполняет комнату, разъедая легкие!",¡Un humo verde corrosivo llena la sala y abrasa tus pulmones!,腐蚀性的绿色烟雾充满房间，灼烧着你的肺！
+"Зеленый едкий дым заполняет комнату, разъедая легкие!","Caustic green smoke fills the room, burning your lungs!","Зеленый едкий дым заполняет комнату, разъедая легкие!",¡Un humo verde corrosivo llena la sala y abrasa tus pulmones!,腐蚀性的绿色烟雾充满房间，灼烧着你的肺！
+Card,Card,Карта,Carta,卡牌
+"%s
+%s
+[Click or drag to equip]","%s
+%s
+[Click or drag to equip]","%s
+%s
+[Кликните или перетащите для экипировки]","%s
+%s
+[Haz clic o arrastra para equipar]","%s
+%s
+[点击或拖动以装备]"
+Curse,Curse,Проклятие,Maldición,诅咒
+ (1 ring reroll available), (1 ring reroll available), (Доступен 1 переброс кольца), (1 repetición del anillo disponible),（戒指可重掷1次）
+"
+Roll 2d6 to save (target: %d+ or doubles).%s","
+Roll 2d6 to save (target: %d+ or doubles).%s","
+Бросьте 2d6 на спасение (порог: %d+ или дубль).%s","
+Tira 2d6 para salvarte (objetivo: %d+ o dobles).%s","
+掷2d6进行豁免（目标：%d+ 或双骰相同）。%s"
+Dice: [ ? ] and [ ? ],Dice: [ ? ] and [ ? ],Кубики: [ ? ] и [ ? ],Dados: [ ? ] y [ ? ],骰子：[ ? ] 和 [ ? ]
+Press the button for a saving roll!,Press the button for a saving roll!,Нажмите кнопку для спасительного броска!,¡Pulsa el botón para la tirada de salvación!,点击按钮进行豁免掷骰！
+SAVING ROLL (2d6),SAVING ROLL (2d6),СДЕЛАТЬ СПАС-БРОСОК (2d6),TIRADA DE SALVACIÓN (2d6),豁免掷骰（2d6）
+Dice: [ %d ] and [ %d ],Dice: [ %d ] and [ %d ],Кубики: [ %d ] и [ %d ],Dados: [ %d ] y [ %d ],骰子：[ %d ] 和 [ %d ]
+ (+%d bonus), (+%d bonus), (+%d бонус), (+%d de bonificación),（+%d 加成）
+"Dice: [ %d ] and [ %d ] (Total: %d%s, Target: %d)","Dice: [ %d ] and [ %d ] (Total: %d%s, Target: %d)","Кубики: [ %d ] и [ %d ] (Сумма: %d%s, Порог: %d)","Dados: [ %d ] y [ %d ] (Total: %d%s, Objetivo: %d)",骰子：[ %d ] 和 [ %d ]（总计：%d%s，目标：%d）
+DOUBLES (%d-%d)! You escape the trap unharmed!,DOUBLES (%d-%d)! You escape the trap unharmed!,ДУБЛЬ (%d-%d)! Спасение от ловушки без вреда!,¡DOBLES (%d-%d)! ¡Evitas la trampa sin daño!,双骰相同（%d-%d）！你毫发无损地避开了陷阱！
+SUCCESS! Roll %d >= %d. The trap misses you!,SUCCESS! Roll %d >= %d. The trap misses you!,УСПЕХ! Бросок %d >= %d. Ловушка не задела вас!,¡ÉXITO! Tirada %d >= %d. ¡La trampa no te alcanza!,成功！掷骰 %d >= %d。陷阱没有伤到你！
+CONTINUE ONWARD,CONTINUE ONWARD,ПРОДОЛЖИТЬ ПУТЬ,CONTINUAR EL CAMINO,继续前进
+PARTIAL DAMAGE! You take a glancing hit (-%d HP).,PARTIAL DAMAGE! You take a glancing hit (-%d HP).,ЧАСТИЧНЫЙ УРОН! Вы задеты частично (-%d HP).,¡DAÑO PARCIAL! Recibes un golpe leve (-%d HP).,部分伤害！你受到擦伤（-%d HP）。
+REROLL (%d left),REROLL (%d left),ПЕРЕБРОСИТЬ (Осталось: %d),VOLVER A TIRAR (Quedan: %d),重掷（剩余：%d）
+TAKE DAMAGE (-%d HP),TAKE DAMAGE (-%d HP),ПРИНЯТЬ УРОН (-%d HP),RECIBIR DAÑO (-%d HP),承受伤害（-%d HP）
+", -%d power",", -%d power",", -%d Мощь",", -%d de poder",，-%d 战力
+FAILURE! The trap triggers (-%d HP%s)!,FAILURE! The trap triggers (-%d HP%s)!,ПРОВАЛ! Ловушка сработала (-%d HP%s)!,¡FALLO! ¡La trampa se activa (-%d HP%s)!,失败！陷阱触发（-%d HP%s）！
+ESCAPE FROM: %s,ESCAPE FROM: %s,ПОБЕГ ОТ ВРАГА: %s,HUIR DE: %s,逃离敌人：%s
+ (Amulet bonus: +%d), (Amulet bonus: +%d), (Бонус амулетов: +%d), (Bonificación de amuletos: +%d),（护符加成：+%d）
+ [Armor -%d], [Armor -%d], [Броня -%d], [Armadura -%d], [护甲 -%d]
+"Target: %d+ or DOUBLES%s
+Power gap: %d (failure: -%d HP%s)","Target: %d+ or DOUBLES%s
+Power gap: %d (failure: -%d HP%s)","Целевое значение: %d+ или ДУБЛЬ костей%s
+Разница в силе: %d (штраф при провале: -%d HP%s)","Objetivo: %d+ o DOBLES%s
+Diferencia de poder: %d (fallo: -%d HP%s)","目标：%d+ 或双骰相同%s
+战力差距：%d（失败惩罚：-%d HP%s）"
+Roll the dice to escape!,Roll the dice to escape!,Бросьте кубики для спасения!,¡Tira los dados para escapar!,掷骰逃跑！
+ROLL DICE,ROLL DICE,БРОСИТЬ КУБИКИ,TIRAR LOS DADOS,掷骰
+CRITICAL SUCCESS (Doubles %d-%d)! You dodge the attack in a flash!,CRITICAL SUCCESS (Doubles %d-%d)! You dodge the attack in a flash!,КРИТИЧЕСКИЙ УСПЕХ (Дубль %d-%d)! Вы молниеносно увернулись от удара!,¡ÉXITO CRÍTICO (Dobles %d-%d)! ¡Esquivas el ataque al instante!,大成功（双骰相同 %d-%d）！你迅速躲开了攻击！
+SUCCESS! Roll: %d (target %d). You escape the monster!,SUCCESS! Roll: %d (target %d). You escape the monster!,УСПЕХ! Бросок: %d (порог %d). Вы успешно оторвались от монстра!,¡ÉXITO! Tirada: %d (objetivo %d). ¡Escapas del monstruo!,成功！掷骰：%d（目标 %d）。你甩开了怪物！
+RETREAT TO THE CORRIDOR,RETREAT TO THE CORRIDOR,ОТСТУПИТЬ В КОРИДОР,RETIRARSE AL PASILLO,退回走廊
+ [LETHAL], [LETHAL], [СМЕРТЕЛЬНО], [LETAL], [致命]
+FAILURE! Roll: %d (need %d+). The enemy catches you (-%d HP)!,FAILURE! Roll: %d (need %d+). The enemy catches you (-%d HP)!,ПРОВАЛ! Бросок: %d (нужно %d+). Враг настигает вас (-%d HP)!,¡FALLO! Tirada: %d (necesitas %d+). ¡El enemigo te alcanza (-%d HP)!,失败！掷骰：%d（需要 %d+）。敌人追上了你（-%d HP）！
+TAKE DAMAGE (-%d HP%s),TAKE DAMAGE (-%d HP%s),ПРИНЯТЬ УРОН (-%d HP%s),RECIBIR DAÑO (-%d HP%s),承受伤害（-%d HP%s）
+Monster,Monster,Монстр,Monstruo,怪物
+[ FLOOR BOSS ] ,[ FLOOR BOSS ] ,[ БОСС ЭТАЖА ] ,[ JEFE DEL PISO ] ,[ 本层首领 ] 
+START RHYTHM BATTLE,START RHYTHM BATTLE,НАЧАТЬ РИТМ-БОЙ,INICIAR COMBATE RÍTMICO,开始节奏战斗
+RHYTHM BATTLE (risk -%d HP),RHYTHM BATTLE (risk -%d HP),РИТМ-БОЙ (риск -%d HP),COMBATE RÍTMICO (riesgo -%d HP),节奏战斗（风险 -%d HP）
+DICE ESCAPE,DICE ESCAPE,ПОБЕГ НА КУБИКАХ,HUIR CON DADOS,掷骰逃跑
+"
+%d BPM • %d notes • Timing ±%d ms","
+%d BPM • %d notes • Timing ±%d ms","
+%d BPM • %d нот • Допуск ±%d мс","
+%d BPM • %d notas • Margen ±%d ms","
+%d BPM • %d 个音符 • 判定 ±%d 毫秒"
+GET READY,GET READY,ПРИГОТОВЬТЕСЬ,PREPÁRATE,准备
+MISSED,MISSED,ПРОПУСК,OMISIÓN,漏击
+COUNT IN  %d / 4   ·   WATCH THE LINE,COUNT IN  %d / 4   ·   WATCH THE LINE,ОТСЧЁТ  %d / 4   ·   СЛЕДИТЕ ЗА ЛИНИЕЙ,CUENTA  %d / 4   ·   MIRA LA LÍNEA,倒数  %d / 4   ·   注意判定线
+PERFECT!,PERFECT!,ТОЧНО!,¡PERFECTO!,完美！
+HIT,HIT,ПОПАДАНИЕ,ACIERTO,命中
+MISS  ·  KEEP THE RHYTHM,MISS  ·  KEEP THE RHYTHM,МИМО  ·  ДЕРЖИТЕ РИТМ,FALLO  ·  SIGUE EL RITMO,未命中  ·  保持节奏
+"WRONG MOVE: DIAMOND — ATTACK, SHIELD — GUARD","WRONG MOVE: DIAMOND — ATTACK, SHIELD — GUARD","НЕ ТОТ ПРИЁМ: РОМБ — УДАР, ЩИТ — БЛОК","ACCIÓN INCORRECTA: ROMBO — ATAQUE, ESCUDO — BLOQUEO",招式错误：菱形 — 攻击，盾牌 — 格挡
+COMBO ×%d,COMBO ×%d,СЕРИЯ ×%d,RACHA ×%d,连击 ×%d
+BEAT,BEAT,ТАКТ,PULSO,节拍
+NOTES  ←,NOTES  ←,НОТЫ  ←,NOTAS  ←,音符  ←
+[ ELITE ENEMY ] ,[ ELITE ENEMY ] ,[ ЭЛИТНЫЙ ВРАГ ] ,[ ENEMIGO DE ÉLITE ] ,[ 精英敌人 ] 
+[ ЭЛИТНЫЙ ВРАГ ] ,[ ELITE ENEMY ] ,[ ЭЛИТНЫЙ ВРАГ ] ,[ ENEMIGO DE ÉLITE ] ,[ 精英敌人 ] 
+Lich Lord Malgor (True Form),Lich Lord Malgor (True Form),Лорд-Лич Малгор (Истинная форма),"Malgor, señor liche (Forma verdadera)",巫妖领主玛尔戈（真身）
+Лорд-Лич Малгор (Истинная форма),Lich Lord Malgor (True Form),Лорд-Лич Малгор (Истинная форма),"Malgor, señor liche (Forma verdadera)",巫妖领主玛尔戈（真身）
+Overlord of the Crypt,Overlord of the Crypt,Повелитель Склепа,Soberano de la cripta,墓穴霸主
+Повелитель Склепа,Overlord of the Crypt,Повелитель Склепа,Soberano de la cripta,墓穴霸主
+A guardian blocks your path.,A guardian blocks your path.,Страж преградил путь.,Un guardián te cierra el paso.,一名守卫挡住了你的去路。
+Страж преградил путь.,A guardian blocks your path.,Страж преградил путь.,Un guardián te cierra el paso.,一名守卫挡住了你的去路。
+Steady Grip,Steady Grip,Точная хватка,Agarre preciso,精准握持
++%s%% hit timing window,+%s%% hit timing window,+%s%% к допуску попадания,+%s%% al margen de acierto,命中判定窗口 +%s%%
+Foresight,Foresight,Предвидение,Previsión,预见
+Notes appear %s%% earlier,Notes appear %s%% earlier,Ноты видны на %s%% раньше,Las notas aparecen un %s%% antes,音符提前 %s%% 出现
+Steady Pulse,Steady Pulse,Ровный пульс,Pulso firme,平稳脉搏
+Battle tempo reduced by %s%%,Battle tempo reduced by %s%%,Темп боя ниже на %s%%,El ritmo de combate baja un %s%%,战斗节奏降低 %s%%
+Composure,Composure,Собранность,Concentración,专注
++%s%% timing window on the first 3 notes,+%s%% timing window on the first 3 notes,+%s%% допуска на первых 3 нотах,+%s%% de margen en las 3 primeras notas,前3个音符判定窗口 +%s%%
+Second Wind,Second Wind,Второе дыхание,Segundo aliento,重整旗鼓
++%s%% timing window on the note after a miss,+%s%% timing window on the note after a miss,+%s%% допуска на ноте после пропуска,+%s%% de margen en la nota tras una omisión,漏击后的下一个音符判定窗口 +%s%%
+Self-Control,Self-Control,Самообладание,Autocontrol,自制
+Stray press penalty reduced by %s%%,Stray press penalty reduced by %s%%,Штраф лишних нажатий ниже на %s%%,La penalización por pulsaciones extra baja un %s%%,多余按键的惩罚降低 %s%%
+No rhythm combat properties,No rhythm combat properties,Нет свойств ритм-боя,Sin propiedades de combate rítmico,无节奏战斗属性
+"Equipped item properties:
+","Equipped item properties:
+","Свойства надетой экипировки:
+","Propiedades del equipo:
+","已穿戴装备属性：
+"
+"
+Additional timing window bonus is capped at 10%.","
+Additional timing window bonus is capped at 10%.","
+Дополнительный прирост допуска — не больше 10%.","
+La bonificación adicional de margen tiene un límite del 10%.","
+额外判定窗口加成上限为10%。"
+Marching Step,Marching Step,Строевой шаг,Paso de marcha,行军步伐
+Attacks with interruptions and guards.,Attacks with interruptions and guards.,Удары с перебивками и блоками.,Ataques con interrupciones y bloqueos.,攻击中穿插变奏与格挡。
+Predator's Lunge,Predator's Lunge,Хищный рывок,Embestida depredadora,猎食突袭
+"Three quick notes: attack, guard, attack; then a pause.","Three quick notes: attack, guard, attack; then a pause.","Три быстрые ноты: удар, блок, удар; затем пауза.","Tres notas rápidas: ataque, bloqueo, ataque; luego una pausa.",三个快速音符：攻击、格挡、攻击；随后停顿。
+Knight's Combination,Knight's Combination,Рыцарская связка,Combinación del caballero,骑士连招
+Double attacks alternate with double guards.,Double attacks alternate with double guards.,Двойные удары чередуются с двойными блоками.,Ataques dobles alternados con bloqueos dobles.,双攻击与双格挡交替。
+Demonic Onslaught,Demonic Onslaught,Демонический натиск,Asalto demoníaco,恶魔猛攻
+Lunges are interrupted by guards and a long pause.,Lunges are interrupted by guards and a long pause.,Рывки прерываются блоками и длинной паузой.,Embestidas interrumpidas por bloqueos y una pausa larga.,突袭中穿插格挡与长停顿。
+Spider's Lunge,Spider's Lunge,Паучий рывок,Salto de la araña,蜘蛛突袭
+A quick pair gives way to uneven pauses.,A quick pair gives way to uneven pauses.,Короткая пара сменяется неровными паузами.,Una pareja rápida da paso a pausas irregulares.,快速双音之后是不规则的停顿。
+Slime Pulse,Slime Pulse,Пульс слизи,Pulso viscoso,黏液脉动
+A heavy opening and short counterattacks.,A heavy opening and short counterattacks.,Тяжёлое начало и короткие ответные удары.,Un inicio pesado y contraataques breves.,沉重的开场后接短促反击。
+Ghost Waltz,Ghost Waltz,Призрачный вальс,Vals fantasmal,幽灵华尔兹
+Shifted accents and a lingering disappearance.,Shifted accents and a lingering disappearance.,Смещённые акценты и затяжное исчезновение.,Acentos desplazados y una desaparición prolongada.,错位重音与漫长的消隐。
+Beast's Onslaught,Beast's Onslaught,Звериный натиск,Asalto bestial,野兽猛攻
+A quick pounce with a delay before the counter.,A quick pounce with a delay before the counter.,Быстрый наскок с задержкой перед ответом.,Un salto rápido con retraso antes de la respuesta.,快速扑击后，延迟再反击。
+Dirty Combination,Dirty Combination,Грязная связка,Combinación sucia,卑劣连招
+Deceptive delays between attacks and guards.,Deceptive delays between attacks and guards.,Обманные задержки между ударами и блоками.,Retrasos engañosos entre ataques y bloqueos.,攻击与格挡间夹着迷惑性的停顿。
+Stone Step,Stone Step,Каменный шаг,Paso de piedra,岩石步伐
+Heavy accents with a short counterthrust.,Heavy accents with a short counterthrust.,Тяжёлые акценты с коротким ответным выпадом.,Acentos pesados con una breve estocada de respuesta.,沉重的重音后接短促反刺。
+Whirlwind Song,Whirlwind Song,Песнь вихря,Canto del torbellino,旋风之歌
+The whirlwind alternates long gaps and short replies.,The whirlwind alternates long gaps and short replies.,Вихрь чередует длинные интервалы и короткие ответы.,El torbellino alterna intervalos largos y respuestas cortas.,旋风交替带来长间隔与短回应。
+Lich Ritual,Lich Ritual,Ритуал лича,Ritual del liche,巫妖仪式
+Guards between single attacks and a triple sequence.,Guards between single attacks and a triple sequence.,Блоки между одиночными ударами и тройной серией.,Bloqueos entre ataques sueltos y una serie triple.,单次攻击与三连音间穿插格挡。
+Abyss Onslaught,Abyss Onslaught,Натиск Бездны,Asalto del abismo,深渊猛攻
+Four quick notes alternating attack and guard.,Four quick notes alternating attack and guard.,Четыре быстрые ноты со сменой удара и блока.,Cuatro notas rápidas alternando ataque y bloqueo.,四个快速音符，攻击与格挡交替。
+Final Ritual,Final Ritual,Последний ритуал,Ritual final,最后的仪式
+Syncopation and quick sequences with frequent move changes.,Syncopation and quick sequences with frequent move changes.,Синкопы и быстрые серии с частой сменой приёма.,Síncopas y series rápidas con cambios de acción frecuentes.,切分节奏与快速连音，频繁切换招式。
+Broken March,Broken March,Сбитый марш,Marcha irregular,错乱行军
+A steady step gives way to a quick pair.,A steady step gives way to a quick pair.,Ровный шаг сменяется короткой парой.,Un paso firme da paso a una pareja rápida.,平稳步伐之后接快速双音。
+Guardian's Reply,Guardian's Reply,Ответ стража,Respuesta del guardián,守卫回应
+Guards frame single and double attacks.,Guards frame single and double attacks.,Блоки обрамляют одиночный и двойной удар.,Los bloqueos rodean ataques simples y dobles.,格挡包围着单次与双次攻击。
+Feigned Leap,Feigned Leap,Ложный прыжок,Salto fingido,佯装跃击
+A long pause precedes a quick sequence.,A long pause precedes a quick sequence.,Длинная пауза предшествует короткой серии.,Una pausa larga precede a una serie rápida.,长停顿之后接快速连音。
+Ragged Hunt,Ragged Hunt,Рваная охота,Caza irregular,凌乱狩猎
+Uneven pairs with move changes.,Uneven pairs with move changes.,Неровные пары со сменой приёма.,Parejas irregulares con cambios de acción.,不规则双音中切换招式。
+Parry,Parry,Парирование,Parada,招架
+Two guards give way to a pair of counterattacks.,Two guards give way to a pair of counterattacks.,Два блока сменяются ответной парой ударов.,Dos bloqueos dan paso a dos contraataques.,两次格挡后接两次反击。
+Delayed Thrust,Delayed Thrust,Задержанный выпад,Estocada tardía,延迟突刺
+Single moves with a pause before the thrust.,Single moves with a pause before the thrust.,Одиночные приёмы с паузой перед выпадом.,Acciones sueltas con una pausa antes de la estocada.,单次招式，突刺前有停顿。
+Burning Wings,Burning Wings,Пылающие крылья,Alas ardientes,燃烧之翼
+Short wingbeats end with a lingering pause.,Short wingbeats end with a lingering pause.,Короткие взмахи завершаются затяжной паузой.,Breves aleteos terminan con una pausa prolongada.,短促振翅以长停顿收尾。
+Reverse Onslaught,Reverse Onslaught,Обратный натиск,Asalto inverso,逆向猛攻
+A sequence of guards and counters shifts the accent.,A sequence of guards and counters shifts the accent.,Серия блоков и ответных ударов меняет акцент.,Una serie de bloqueos y contraataques desplaza el acento.,连续格挡与反击改变重音。
+Sticky Pause,Sticky Pause,Липкая пауза,Pausa pegajosa,黏滞停顿
+A long delay gives way to two short steps.,A long delay gives way to two short steps.,Длинная задержка сменяется двумя короткими шагами.,Una demora larga da paso a dos pasos cortos.,长延迟之后接两个短音。
+Dash,Dash,Перебежка,Carrera,疾行
+Three short intervals with changing moves.,Three short intervals with changing moves.,Тройка коротких интервалов с меняющимся приёмом.,Tres intervalos cortos con cambios de acción.,三个短间隔中切换招式。
+Rebound,Rebound,Отскок,Rebote,弹跳
+A steady sway gives way to a short rebound.,A steady sway gives way to a short rebound.,Ровное покачивание сменяется коротким отскоком.,Un balanceo regular da paso a un rebote corto.,平稳摇摆之后接短促弹跳。
+Double Wave,Double Wave,Двойная волна,Ola doble,双重波浪
+Two pairs are separated by a long pause.,Two pairs are separated by a long pause.,Две пары разделены длинной паузой.,Dos parejas separadas por una pausa larga.,两组双音之间有长停顿。
+Echo,Echo,Эхо,Eco,回声
+A single move echoes as a quick pair.,A single move echoes as a quick pair.,Один приём отзывается короткой парой.,Una acción resuena como una pareja rápida.,单次招式以快速双音回应。
+Lost Beat,Lost Beat,Потерянный такт,Pulso perdido,失落节拍
+Shifted intervals break up the steady step.,Shifted intervals break up the steady step.,Смещённые интервалы разрывают ровный шаг.,Intervalos desplazados rompen el paso regular.,错位间隔打断平稳步伐。
+Double Bite,Double Bite,Двойной укус,Mordisco doble,双重撕咬
+Quick attacks alternate with paired guards.,Quick attacks alternate with paired guards.,Короткие атаки перемежаются парными блоками.,Ataques rápidos alternados con bloqueos dobles.,快速攻击与成对格挡交替。
+Hunter's Patience,Hunter's Patience,Охотничья выдержка,Paciencia del cazador,猎手耐心
+A long pause is followed by frequent move changes.,A long pause is followed by frequent move changes.,После длинной паузы следуют частые смены приёма.,Una pausa larga seguida de cambios de acción frecuentes.,长停顿之后频繁切换招式。
+Feigned Swing,Feigned Swing,Ложный замах,Golpe fingido,佯装挥击
+The expected attack is delayed by half a beat.,The expected attack is delayed by half a beat.,Ожидаемый удар задерживается на полтакта.,El ataque esperado se retrasa medio pulso.,预期的攻击延迟半拍。
+Crooked Sequence,Crooked Sequence,Косая серия,Serie torcida,错斜连音
+Uneven pairs alternate defense and attack.,Uneven pairs alternate defense and attack.,Неравные пары с чередованием защиты и атаки.,Parejas irregulares alternando defensa y ataque.,不规则双音中交替防御与攻击。
+Cave-In,Cave-In,Обвал,Derrumbe,崩塌
+A quick pair cuts between heavy accents.,A quick pair cuts between heavy accents.,Короткая пара врезается между тяжёлыми акцентами.,Una pareja rápida se intercala entre acentos pesados.,快速双音插入沉重重音之间。
+Stone Reply,Stone Reply,Каменный ответ,Respuesta pétrea,岩石回应
+Counterattacks arrive with uneven delays.,Counterattacks arrive with uneven delays.,Ответные удары идут с неровными задержками.,Contraataques con retrasos irregulares.,反击伴随不规则的延迟。
+Headwind,Headwind,Встречный ветер,Viento en contra,逆风
+A short reply gives way to a lingering whirlwind.,A short reply gives way to a lingering whirlwind.,Короткий ответ сменяется затяжным вихрем.,Una respuesta corta da paso a un torbellino prolongado.,短回应之后接漫长旋风。
+Twisted Beat,Twisted Beat,Закрученный такт,Pulso retorcido,扭曲节拍
+Syncopation with move changes within the sequence.,Syncopation with move changes within the sequence.,Синкопы со сменой приёма внутри серии.,Síncopas con cambios de acción dentro de la serie.,连音中以切分节奏切换招式。
+Seal of Silence,Seal of Silence,Печать молчания,Sello del silencio,沉默封印
+A pause before a short defensive sequence.,A pause before a short defensive sequence.,Пауза перед короткой защитной серией.,Una pausa antes de una breve serie defensiva.,短促防御连音之前有停顿。
+Reply of the Dead,Reply of the Dead,Ответ мёртвых,Respuesta de los muertos,亡者回应
+Shifted accents and two quick replies.,Shifted accents and two quick replies.,Смещённые акценты и два быстрых ответа.,Acentos desplazados y dos respuestas rápidas.,错位重音与两次快速回应。
+Rift,Rift,Разлом,Grieta,裂隙
+Three quick transitions and a heavy ending.,Three quick transitions and a heavy ending.,Три быстрых перехода и тяжёлое завершение.,Tres transiciones rápidas y un final pesado.,三次快速转换与沉重收尾。
+Reverse Wave,Reverse Wave,Обратная волна,Ola inversa,逆向波浪
+Paired guards give way to an uneven counter.,Paired guards give way to an uneven counter.,Парные блоки сменяются неровным ответом.,Bloqueos dobles seguidos de una respuesta irregular.,成对格挡之后接不规则反击。
+Broken Ritual,Broken Ritual,Сломанный ритуал,Ritual roto,破碎仪式
+"Uneven pairs, a quick triple and a long pause.","Uneven pairs, a quick triple and a long pause.","Рваные пары, короткая тройка и длинная пауза.","Parejas irregulares, un trío rápido y una pausa larga.",不规则双音、快速三连音与长停顿。
+Final Reply,Final Reply,Последний ответ,Respuesta final,最后的回应
+Syncopation with frequent attack and guard changes.,Syncopation with frequent attack and guard changes.,Синкопы с частой сменой атаки и защиты.,Síncopas con cambios frecuentes de ataque y bloqueo.,切分节奏中频繁切换攻击与格挡。
+Door,Door,Дверь,Puerta,门
+Wallet: %d gold,Wallet: %d gold,Кошелек: %d золота,Monedero: %d de oro,钱包：%d 金币
+No cards to sell in your backpack.,No cards to sell in your backpack.,В рюкзаке нет карт для продажи.,No hay cartas para vender en tu mochila.,背包中没有可出售的卡牌。
+"Sell ""%s"" for %d gold?","Sell ""%s"" for %d gold?",Продать «%s» за %d золота?,¿Vender «%s» por %d de oro?,以 %s 换取 %d 金币？
+This item cannot be sold.,This item cannot be sold.,Предмет недоступен для продажи.,Este objeto no se puede vender.,此物品无法出售。
+Sold: %s (+%d gold)!,Sold: %s (+%d gold)!,Продано: %s (+%d золота)!,¡Vendido: %s (+%d de oro)!,已出售：%s（+%d 金币）！
+Could not sell the item.,Could not sell the item.,Ошибка при продаже предмета.,No se pudo vender el objeto.,无法出售物品。
+FLOOR %d CLEARED! BOSS DEFEATED!,FLOOR %d CLEARED! BOSS DEFEATED!,ЭТАЖ %d ЗАЧИЩЕН! БОСС ПОВЕРЖЕН!,¡PISO %d COMPLETADO! ¡JEFE DERROTADO!,第 %d 层已清空！首领已击败！
+The campfire is fading (+15 HP received),The campfire is fading (+15 HP received),Костер догорает (+15 HP получено),La hoguera se apaga (+15 HP recibidos),营火渐熄（已恢复 +15 HP）
+Rest at Campfire (+15 HP),Rest at Campfire (+15 HP),Отдохнуть у костра (+15 HP),Descansar en la hoguera (+15 HP),在营火旁休息（+15 HP）
+Descend to floor %d,Descend to floor %d,Спуститься на этаж %d,Descender al piso %d,下潜至第 %d 层
+No weapon equipped,No weapon equipped,Оружие не экипировано,No hay arma equipada,未装备武器
+No weapon to upgrade,No weapon to upgrade,Нет оружия для улучшения,No hay arma que mejorar,没有可升级的武器
+Weapon,Weapon,Оружие,Arma,武器
+"Current weapon: %s (Attack: %d, Upgrade: +%d)","Current weapon: %s (Attack: %d, Upgrade: +%d)","Текущее оружие: %s (Атака: %d, Заточка: +%d)","Arma actual: %s (Ataque: %d, Mejora: +%d)",当前武器：%s（攻击：%d，强化：+%d）
+Maximum upgrade reached (+5),Maximum upgrade reached (+5),Достигнут максимум заточки (+5),Mejora máxima alcanzada (+5),已达到强化上限（+5）
+Sharpen weapon (+%d attack) — %d gold,Sharpen weapon (+%d attack) — %d gold,Заточить оружие (+%d к атаке) — %d золота,Afilar arma (+%d ataque) — %d de oro,磨利武器（+%d 攻击）— %d 金币
+Sharpen (+%d attack) — need %d gold (%d short),Sharpen (+%d attack) — need %d gold (%d short),Заточить (+%d к атаке) — нужно %d золота (не хватает %d),Afilar (+%d ataque) — necesitas %d de oro (faltan %d),磨利（+%d 攻击）— 需要 %d 金币（还差 %d）
+Drop to sell for %d gold!,Drop to sell for %d gold!,"Отпустите, чтобы продать за %d золота!",¡Suelta para vender por %d de oro!,松开即可出售，获得 %d 金币！
+This item is not for sale.,This item is not for sale.,Этот предмет нельзя продать.,Este objeto no está a la venta.,此物品不可出售。
+Drag and drop a card here,Drag and drop a card here,Перетащите карту сюда (Drag & Drop),Arrastra y suelta una carta aquí,将卡牌拖放到此处
+[ WEAPON ],[ WEAPON ],[ ОРУЖИЕ ],[ ARMA ],[ 武器 ]
+[ ARMOR ],[ ARMOR ],[ БРОНЯ ],[ ARMADURA ],[ 护甲 ]
+[ POTION ],[ POTION ],[ ЗЕЛЬЕ ],[ POCIÓN ],[ 药水 ]
+[ BUFF SCROLL ],[ BUFF SCROLL ],[ СВИТОК БАФФА ],[ PERGAMINO ],[ 增益卷轴 ]
+[ LUCK AMULET ],[ LUCK AMULET ],[ АМУЛЕТ УДАЧИ ],[ AMULETO DE SUERTE ],[ 幸运护符 ]
+[ ITEM ],[ ITEM ],[ ПРЕДМЕТ ],[ OBJETO ],[ 物品 ]
++%d IN BATTLE,+%d IN BATTLE,+%d В БОЮ,+%d EN COMBATE,战斗中 +%d
++%d TO DICE,+%d TO DICE,+%d К КУБИКАМ,+%d A LOS DADOS,掷骰 +%d
++%d REROLL,+%d REROLL,+%d РЕРОЛЛ,+%d REPETICIÓN,重掷 +%d
+Restores +%d HP (consumable),Restores +%d HP (consumable),Восстанавливает +%d HP (расходник),Restaura +%d HP (consumible),恢复 +%d HP（消耗品）
++%d to escape and saving rolls,+%d to escape and saving rolls,+%d к результату броска кубиков для побега/спасения,+%d a las tiradas de huida y salvación,逃跑和豁免掷骰结果 +%d
++%d extra free rerolls,+%d extra free rerolls,+%d дополнительный бесплатный переброс кубиков,+%d repeticiones gratuitas,额外免费重掷 +%d
+Common,Common,Обычная,Común,普通
+Uncommon,Uncommon,Необычная,Poco común,精良
+Rare,Rare,Редкая,Raro,稀有
+Legendary,Legendary,Легендарная,Legendario,传说
+"%s %s
+Rarity: %s
+%s
+Sell price: %s","%s %s
+Rarity: %s
+%s
+Sell price: %s","%s %s
+Редкость: %s
+%s
+Цена продажи: %s","%s %s
+Rareza: %s
+%s
+Precio de venta: %s","%s %s
+品质：%s
+%s
+出售价格：%s"
+[ Empty ],[ Empty ],[ Пусто ],[ Vacío ],[ 空 ]
+Drag a weapon here,Drag a weapon here,Перетащите оружие,Arrastra un arma aquí,将武器拖到此处
+Armor,Armor,Броня,Armadura,护甲
+Drag armor here,Drag armor here,Перетащите броню,Arrastra armadura aquí,将护甲拖到此处
+Amulet,Amulet,Амулет,Amuleto,护符
++%d to dice,+%d to dice,+%d к кубикам,+%d a los dados,掷骰 +%d
++1 reroll,+1 reroll,+1 реролл,+1 repetición,重掷 +1
+Drag an amulet here,Drag an amulet here,Перетащите амулет,Arrastra un amuleto aquí,将护符拖到此处
+ADVENTURER'S TRIUMPH!,ADVENTURER'S TRIUMPH!,ТРИУМФ АВАНТЮРИСТА!,¡TRIUNFO DEL AVENTURERO!,冒险者的凯旋！
+"You emerge from the crypts alive, laden with glory and treasure!","You emerge from the crypts alive, laden with glory and treasure!","Вы вышли из глубин катакомб живым, увенчанным славой и сокровищами!","¡Sales con vida de las criptas, cargado de gloria y tesoros!",你从墓穴深处生还，满载荣耀与财宝！
+YOU FELL IN THE DUNGEON...,YOU FELL IN THE DUNGEON...,ВЫ ПАЛИ В ПОДЗЕМЕЛЬЕ...,HAS CAÍDO EN LA MAZMORRA...,你倒在了地牢中……
+"Your strength ran out, and the dungeon claimed another lost soul.","Your strength ran out, and the dungeon claimed another lost soul.","Ваши силы иссякли, а подземелье поглотило еще одну заблудшую душу.",Tus fuerzas se agotaron y la mazmorra devoró otra alma perdida.,你的力量耗尽，地牢又吞噬了一个迷失的灵魂。
+"EXPEDITION RESULTS:
+","EXPEDITION RESULTS:
+","ИТОГИ ПОХОДА:
+","RESULTADOS DE LA EXPEDICIÓN:
+","探险结果：
+"
+"• Rooms cleared: %d
+","• Rooms cleared: %d
+","• Пройдено комнат: %d
+","• Salas completadas: %d
+","• 已完成房间：%d
+"
+"• Floor reached: %d
+","• Floor reached: %d
+","• Достигнут этаж: %d
+","• Piso alcanzado: %d
+","• 到达层数：%d
+"
+"• Monsters slain: %d
+","• Monsters slain: %d
+","• Сражено чудовищ: %d
+","• Monstruos abatidos: %d
+","• 击杀怪物：%d
+"
+%d GOLD,%d GOLD,%d ЗОЛОТА,%d DE ORO,%d 金币
+FLOOR %d — [ BOSS! ],FLOOR %d — [ BOSS! ],ЭТАЖ %d — [ БОСС! ],PISO %d — [ ¡JEFE! ],第 %d 层 — [ 首领！ ]
+FLOOR %d — ROOM %d / %d,FLOOR %d — ROOM %d / %d,ЭТАЖ %d — КОМНАТА %d / %d,PISO %d — SALA %d / %d,第 %d 层 — 房间 %d / %d
+CHEST: %d CARDS,CHEST: %d CARDS,СУНДУК: %d КАРТ,COFRE: %d CARTAS,宝箱：%d 张卡牌
+Profile wallet: %d gold,Profile wallet: %d gold,Кошелек профиля: %d золота,Monedero del perfil: %d de oro,档案钱包：%d 金币
+You have an unfinished endless expedition! Continue it or retire at a campfire.,You have an unfinished endless expedition! Continue it or retire at a campfire.,У вас есть незавершённый бесконечный поход! Продолжите его или завершите у костра.,¡Tienes una expedición infinita pendiente! Continúala o termínala en una hoguera.,你有未完成的无尽探险！请继续探险或在营火旁结束。
+Choose an adventure mode:,Choose an adventure mode:,Выберите режим приключения:,Elige un modo de aventura:,选择冒险模式：
+Card name,Card name,Название карты,Nombre de la carta,卡牌名称
+[ TYPE ],[ TYPE ],[ ТИП ],[ TIPO ],[ 类型 ]
++X POWER,+X POWER,+X МОЩЬ,+X PODER,+X 战力
+Effect description,Effect description,Описание эффекта,Descripción del efecto,效果说明
+15 gold,15 gold,15 з.,15 de oro,15 金币
+VICTORY REWARD: CHOOSE 1 CARD,VICTORY REWARD: CHOOSE 1 CARD,НАГРАДА ЗА ПОБЕДУ: ВЫБЕРИТЕ 1 КАРТУ,RECOMPENSA: ELIGE 1 CARTA,胜利奖励：选择1张卡牌
+Loot goes to the floor chest. Equip gear from the inventory; potions and scrolls unlock after the boss.,Loot goes to the floor chest. Equip gear from the inventory; potions and scrolls unlock after the boss.,Карта отправится в сундук этажа и станет доступна после победы над Боссом 10-й комнаты!,El botín va al cofre del piso. Equipa objetos desde el inventario; las pociones y los pergaminos se desbloquean tras el jefe.,战利品存入本层宝箱。可从背包装备物品；药水和卷轴在击败首领后解锁。
+Danger!,Danger!,Опасность!,¡Peligro!,危险！
+Trap description...,Trap description...,Описание ловушки...,Descripción de la trampa...,陷阱说明……
+Die: [ ? ],Die: [ ? ],Кубик: [ ? ],Dado: [ ? ],骰子：[ ? ]
+Press the button for a saving throw!,Press the button for a saving throw!,Нажмите кнопку для спас-броска!,¡Pulsa el botón para la tirada de salvación!,点击按钮进行豁免掷骰！
+SAVING THROW,SAVING THROW,СДЕЛАТЬ СПАС-БРОСОК,TIRADA DE SALVACIÓN,豁免掷骰
+ESCAPE FROM THE MONSTER,ESCAPE FROM THE MONSTER,ПОБЕГ ОТ МОНСТРА,HUIR DEL MONSTRUO,逃离怪物
+Target: 8+ or DOUBLES,Target: 8+ or DOUBLES,Целевое значение: 8+ или ДУБЛЬ,Objetivo: 8+ o DOBLES,目标：8+ 或双骰相同
+REROLL (1),REROLL (1),ПЕРЕБРОСИТЬ (1),VOLVER A TIRAR (1),重掷（1）
+Monster title,Monster title,Титул монстра,Título del monstruo,怪物称号
+Enemy name,Enemy name,Имя врага,Nombre del enemigo,敌人名称
+Monster description...,Monster description...,Описание монстра...,Descripción del monstruo...,怪物说明……
+Your power: X — Enemy power: Y,Your power: X — Enemy power: Y,Ваша мощь: X — Мощь врага: Y,Tu poder: X — Poder enemigo: Y,你的战力：X — 敌方战力：Y
+Hint...,Hint...,Подсказка...,Consejo...,提示……
+AUTOMATIC VICTORY!,AUTOMATIC VICTORY!,АВТОМАТИЧЕСКАЯ ПОБЕДА!,¡VICTORIA AUTOMÁTICA!,自动获胜！
+FIGHT (Take -X HP),FIGHT (Take -X HP),СРАЗИТЬСЯ (Получить -X HP),LUCHAR (Recibir -X HP),战斗（承受 -X HP）
+ROOM 1 / 10,ROOM 1 / 10,КОМНАТА 1 / 10,SALA 1 / 10,房间 1 / 10
+ANTIQUITIES MERCHANT,ANTIQUITIES MERCHANT,ЛАВКА СКУПЩИКА ДРЕВНОСТЕЙ,MERCADER DE ANTIGÜEDADES,古物商人
+Wallet: 40 gold,Wallet: 40 gold,Кошелек: 40 золота,Monedero: 40 de oro,钱包：40 金币
+Close,Close,Закрыть,Cerrar,关闭
+DRAG AND DROP A CARD HERE TO SELL,DRAG AND DROP A CARD HERE TO SELL,ПЕРЕТАЩИТЕ КАРТУ СЮДА ДЛЯ ПРОДАЖИ (DRAG & DROP),ARRASTRA UNA CARTA AQUÍ PARA VENDER,将卡牌拖到此处出售
+Drag a card from your backpack below into this golden zone,Drag a card from your backpack below into this golden zone,Зажмите мини-карту из рюкзака снизу и перетащите в эту золотую зону,Arrastra una carta de la mochila inferior a esta zona dorada,将下方背包中的卡牌拖到这个金色区域
+Drop a card in the sale zone or select it to sell,Drop a card in the sale zone or select it to sell,Перетащите карту в зону скупки или нажмите на неё для продажи,Suelta una carta en la zona de venta o selecciónala para vender,将卡牌拖入出售区域，或选中卡牌出售
+YOUR CARDS FOR SALE (Drag up to the sale zone or select):,YOUR CARDS FOR SALE (Drag up to the sale zone or select):,ВАШИ КАРТЫ ДЛЯ ПРОДАЖИ (Перетащите вверх в зону скупки или нажмите):,TUS CARTAS EN VENTA (Arrastra a la zona superior o selecciona):,可出售的卡牌（拖入上方出售区域或选中）：
+RETURN TO CAMP,RETURN TO CAMP,ВЕРНУТЬСЯ В ЛАГЕРЬ К КОСТРУ,VOLVER AL CAMPAMENTO,返回营地
+CONFIRM SALE,CONFIRM SALE,ПОДТВЕРЖДЕНИЕ ПРОДАЖИ,CONFIRMAR VENTA,确认出售
+Sell this item for 15 gold?,Sell this item for 15 gold?,Вы действительно хотите продать предмет за 15 золота?,¿Vender este objeto por 15 de oro?,以15金币出售此物品？
+Sell,Sell,Продать,Vender,出售
+Cancel,Cancel,Отмена,Cancelar,取消
+Name,Name,Название,Nombre,名称
+FLOOR 1 CLEARED! BOSS DEFEATED!,FLOOR 1 CLEARED! BOSS DEFEATED!,ЭТАЖ 1 ЗАЧИЩЕН! БОСС ПОВЕРЖЕН!,¡PISO 1 COMPLETADO! ¡JEFE DERROTADO!,第1层已清空！首领已击败！
+Cards below: Tab / Shift+Tab or arrows to select; Enter / Space to equip or use.,Cards below: Tab / Shift+Tab or arrows to select; Enter / Space to equip or use.,Карты внизу: Tab / Shift+Tab или стрелки — выбор; Enter / Пробел — экипировать или использовать.,Cartas inferiores: Tab / Shift+Tab o flechas para elegir; Enter / Espacio para equipar o usar.,下方卡牌：Tab / Shift+Tab 或方向键选择；Enter / 空格装备或使用。
+WARM CAMPFIRE (Rest and healing),WARM CAMPFIRE (Rest and healing),ТЕПЛЫЙ КОСТЕР (Отдых и исцеление),HOGUERA CÁLIDA (Descanso y curación),温暖营火（休息与治疗）
+FORGE (Weapon upgrades),FORGE (Weapon upgrades),КУЗНИЦА (Заточка оружия),FORJA (Mejora de armas),铁匠铺（武器强化）
+Current weapon: Rusty Sword (Power: 2),Current weapon: Rusty Sword (Power: 2),Текущее оружие: Ржавый меч (Мощь: 2),Arma actual: Espada oxidada (Poder: 2),当前武器：锈剑（战力：2）
+Sharpen weapon (+2 power) — 40 gold,Sharpen weapon (+2 power) — 40 gold,Заточить оружие (+2 к мощи) — 40 золота,Afilar arma (+2 poder) — 40 de oro,磨利武器（+2 战力）— 40 金币
+TROPHY MERCHANT (Sell cards),TROPHY MERCHANT (Sell cards),СКУПЩИК ТРОФЕЕВ (Продажа карт),MERCADER DE TROFEOS (Venta de cartas),战利品商人（出售卡牌）
+Open merchant shop (Sell),Open merchant shop (Sell),Открыть лавку торговца (Скупка),Abrir tienda del mercader (Venta),打开商人店铺（出售）
+Descend deeper,Descend deeper,Спуститься глубже,Descender más,继续下潜
+Leave in triumph,Leave in triumph,Выйти с триумфом,Salir con el triunfo,凯旋归来
+WEAPON,WEAPON,ОРУЖИЕ,ARMA,武器
+Unequip,Unequip,Снять,Desequipar,卸下
++2 power,+2 power,+2 Мощь,+2 de poder,+2 战力
+ARMOR,ARMOR,БРОНЯ,ARMADURA,护甲
++2 power (-1 damage),+2 power (-1 damage),+2 Мощь (-1 урон),+2 de poder (-1 daño),+2 战力（-1 伤害）
+AMULET,AMULET,АМУЛЕТ,AMULETO,护符
++2 to dice,+2 to dice,+2 к кубикам,+2 a los dados,掷骰 +2
+YOU FELL IN THE DUNGEON,YOU FELL IN THE DUNGEON,ВЫ ПАЛИ В ПОДЗЕМЕЛЬЕ,HAS CAÍDO EN LA MAZMORRA,你倒在了地牢中
+The dungeon has claimed your soul...,The dungeon has claimed your soul...,Подземелье поглотило вашу душу...,La mazmorra ha devorado tu alma...,地牢吞噬了你的灵魂……
+EXPEDITION RESULTS...,EXPEDITION RESULTS...,ИТОГИ ПОХОДА...,RESULTADOS DE LA EXPEDICIÓN...,探险结果……
+START NEW EXPEDITION,START NEW EXPEDITION,НАЧАТЬ НОВЫЙ ЗАБЕГ,INICIAR NUEVA EXPEDICIÓN,开始新的探险
+ATK: 4 / DEF: 4,ATK: 4 / DEF: 4,АТК: 4 / ЗАЩ: 4,ATQ: 4 / DEF: 4,攻击：4 / 防御：4
+40 GOLD,40 GOLD,40 ЗОЛОТА,40 DE ORO,40 金币
+FLOOR 1 — ROOM 1 / 10,FLOOR 1 — ROOM 1 / 10,ЭТАЖ 1 — КОМНАТА 1 / 10,PISO 1 — SALA 1 / 10,第1层 — 房间 1 / 10
+CHEST: 0 CARDS,CHEST: 0 CARDS,СУНДУК: 0 КАРТ,COFRE: 0 CARTAS,宝箱：0 张卡牌
+CHOOSE ADVENTURE MODE,CHOOSE ADVENTURE MODE,ВЫБОР РЕЖИМА ПРИКЛЮЧЕНИЯ,ELIGE EL MODO DE AVENTURA,选择冒险模式
+Profile wallet: 40 gold,Profile wallet: 40 gold,Кошелек профиля: 40 золота,Monedero del perfil: 40 de oro,档案钱包：40 金币
+Continue Endless Run,Continue Endless Run,Продолжить бесконечный поход,Continuar expedición infinita,继续无尽探险
+100 Floors Run (Timed),100 Floors Run (Timed),Поход на 100 этажей (На время),Expedición de 100 pisos (Contrarreloj),100层探险（计时）
+Endless Descent (Completed Floors),Endless Descent (Completed Floors),Бесконечный спуск (Покорённые этажи),Descenso infinito (Pisos completados),无尽下潜（已完成层数）
+ADVENTURER VILLAGE MAP,ADVENTURER VILLAGE MAP,КАРТА ДЕРЕВНИ АВАНТЮРИСТОВ,MAPA DEL PUEBLO DE AVENTUREROS,冒险者村庄地图
+Building name,Building name,Название здания,Nombre del edificio,建筑名称
+Stage 0 of 3,Stage 0 of 3,Стадия 0 из 3,Etapa 0 de 3,阶段 0 / 3
+Current state,Current state,Текущее состояние,Estado actual,当前状态
+Next stage,Next stage,Следующее улучшение,Próxima etapa,下一阶段
+Cost: 40 gold,Cost: 40 gold,Стоимость: 40 золота,Coste: 40 de oro,费用：40 金币
+Requires: Village Square,Requires: Village Square,Требование: Центральная площадь,Requiere: Plaza del pueblo,需要：村庄广场
+Upgrade,Upgrade,Улучшить,Mejorar,升级
+Restore this building?,Restore this building?,"Вы уверены, что хотите восстановить здание?",¿Restaurar este edificio?,修复此建筑？
+UI_SETTINGS_LANGUAGE,Language,Язык,Idioma,语言

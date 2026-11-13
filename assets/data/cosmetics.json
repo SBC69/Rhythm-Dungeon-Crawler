@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "cosmetics": [
+    {
+      "id": "hero_road_cloak",
+      "category": "hero",
+      "required_marketplace_stage": 1,
+      "title": "Дорожный плащ",
+      "description": "Внешний вид героя: серо-зелёный плащ и дорожная сумка"
+    },
+    {
+      "id": "hero_village_guard",
+      "category": "hero",
+      "required_marketplace_stage": 1,
+      "title": "Дозорный деревни",
+      "description": "Внешний вид героя: синий плащ и знак деревни"
+    },
+    {
+      "id": "cards_oak",
+      "category": "cards",
+      "required_marketplace_stage": 2,
+      "title": "Дубовая колода",
+      "description": "Рубашка карт с древесным узором"
+    },
+    {
+      "id": "cards_starlight",
+      "category": "cards",
+      "required_marketplace_stage": 2,
+      "title": "Звёздная колода",
+      "description": "Тёмная рубашка с узором звёзд"
+    },
+    {
+      "id": "dice_bone",
+      "category": "dice",
+      "required_marketplace_stage": 2,
+      "title": "Костяные кубики",
+      "description": "Светлая поверхность кубиков, тёмные точки"
+    },
+    {
+      "id": "dice_copper",
+      "category": "dice",
+      "required_marketplace_stage": 2,
+      "title": "Медные кубики",
+      "description": "Медная поверхность, светлые контрастные точки"
+    },
+    {
+      "id": "village_warm_evening",
+      "category": "village",
+      "required_marketplace_stage": 3,
+      "title": "Тёплый вечер",
+      "description": "Статичная тёплая палитра деревни и свет фонарей"
+    },
+    {
+      "id": "village_fair",
+      "category": "village",
+      "required_marketplace_stage": 3,
+      "title": "Деревенская ярмарка",
+      "description": "Декоративные флажки и праздничные цвета восстановленных объектов"
+    }
+  ]
+}
